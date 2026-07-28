@@ -180,3 +180,23 @@ function openWindow(element) {
   element.style.zIndex = biggestIndex;
 }
 
+//TOP (musi miec position relative bo inaczej nie zadziala)
+var topBar = document.querySelector("#top")
+
+function openWindow(element) {
+  element.style.display = "flex";
+  biggestIndex++;  // Increment biggestIndex by 1
+  element.style.zIndex = biggestIndex;
+  topBar.style.zIndex = biggestIndex + 1;
+}
+
+function handleWindowTap(element) {
+  biggestIndex++;  // Increment biggestIndex by 1
+  element.style.zIndex = biggestIndex;
+  topBar.style.zIndex = biggestIndex + 1;
+  deselectIcon(selectedIcon)
+}
+
+
+
+
