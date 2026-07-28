@@ -242,3 +242,4 @@ dragElement(screen)
 initializeWindow("start")
 initializeWindow("JamesWebbSpaceTelescopeApp")
 initializeWindow("NASCApp")
+
