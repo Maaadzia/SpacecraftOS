@@ -7,10 +7,40 @@ function updateTime() {
     setInterval(updateTime, 1000);
 
 
+dragElement(document.getElementById("start"));
 dragElement(document.getElementById("issGuide"));
 dragElement(document.getElementById("starlinkGuide"));
 dragElement(document.getElementById("JamesWebbSpaceTelescopeApp"));
 dragElement(document.getElementById("NASCApp"));
+//OPEN AND CLOSE WINDOW
+
+var startScreen = document.querySelector("#start")
+
+function closeWindow(element) {
+  element.style.display = "none"
+}
+
+function openWindow(element) {
+  element.style.display = "flex"
+}
+
+//BUTTTONS
+
+var startScreenClose = document.querySelector("#startclose")
+
+var startScreenOpen = document.querySelector("#startopen")
+
+//EVENT LISTENERS bc if you don't add one then it wont listen lol
+
+startScreenClose.addEventListener("click", function() {
+  closeWindow(startScreen);
+});
+startScreenOpen.addEventListener("click", function() {
+  openWindow(startScreen);
+});
+
+
+
 //OPEN AND CLOSE WINDOW ISS GUIDE
 
 var issGuideScreen = document.querySelector("#issGuide")
