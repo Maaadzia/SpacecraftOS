@@ -8,6 +8,7 @@ function updateTime() {
 
 
 dragElement(document.getElementById("issGuide"));
+dragElement(document.getElementById("starlinkGuide"));
 //OPEN AND CLOSE WINDOW ISS GUIDE
 
 var issGuideScreen = document.querySelector("#issGuide")
@@ -32,3 +33,31 @@ issGuideScreenClose.addEventListener("click", function() {
 issGuideScreenOpen.addEventListener("click", function() {
   openWindow(issGuideScreen);
 });
+
+
+//OPEN AND CLOSE WINDOW STARLINK GUIDE
+
+var starlinkGuideScreen = document.querySelector("#starlinkGuide")
+
+function closeWindow(element) {
+  element.style.display = "none"
+}
+
+function openWindow(element) {
+  element.style.display = "flex"
+}
+
+
+var starlinkGuideScreenClose = document.querySelector("#starlinkGuideclose")
+
+var starlinkGuideScreenOpen = document.querySelector("#starlinkGuideopen")
+
+
+starlinkGuideScreenClose.addEventListener("click", function() {
+  closeWindow(starlinkGuideScreen);
+});
+starlinkGuideScreenOpen.addEventListener("click", function() {
+  openWindow(starlinkGuideScreen);
+});
+
+
