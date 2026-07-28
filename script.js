@@ -200,3 +200,45 @@ function handleWindowTap(element) {
 
 
 
+//APPS!
+
+var selectedIcon = undefined
+
+function selectIcon(element) {
+  element.classList.add("selected");
+  selectedIcon = element
+}
+
+function deselectIcon(element) {
+  element.classList.remove("selected");
+  selectedIcon = undefined
+}
+
+function handleIconTap(element, window) {
+  if (element.classList.contains("selected")) {
+    deselectIcon(element)
+    openWindow(window)
+  } else {
+    selectIcon(element)
+  }
+}
+
+//INITIALIZE ICON
+function initializeIcon(name) {
+var icon = document.querySelector("#" + name + "Icon")
+var screen = document.querySelector("#" + name)
+icon.addEventListener("click", () => handleIconTap(icon, screen));
+}
+initializeIcon("JamesWebbSpaceTelescopeApp")
+initializeIcon("NASCApp")
+
+//INITIALIZE WINDOW
+function initializeWindow(elementName) {
+var screen = document.querySelector("#" + elementName)
+addWindowTapHandling(screen)
+makeClosable(elementName)
+dragElement(screen)
+}
+initializeWindow("start")
+initializeWindow("JamesWebbSpaceTelescopeApp")
+initializeWindow("NASCApp")
