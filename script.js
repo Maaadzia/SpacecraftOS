@@ -10,6 +10,7 @@ function updateTime() {
 dragElement(document.getElementById("issGuide"));
 dragElement(document.getElementById("starlinkGuide"));
 dragElement(document.getElementById("JamesWebbSpaceTelescopeApp"));
+dragElement(document.getElementById("NASCApp"));
 //OPEN AND CLOSE WINDOW ISS GUIDE
 
 var issGuideScreen = document.querySelector("#issGuide")
@@ -69,4 +70,13 @@ var JamesWebbSpaceTelescopeAppScreen = document.querySelector("#JamesWebbSpaceTe
 var JamesWebbSpaceTelescopeAppScreenClose = document.querySelector("#JamesWebbSpaceTelescopeAppclose")
 
 JamesWebbSpaceTelescopeAppScreenClose.addEventListener("click", () => closeWindow(JamesWebbSpaceTelescopeAppScreen));
+
+//CLOSE NASCAPP
+
+var NASCAppScreen = document.querySelector("#NASCApp")
+
+var NASCAppScreenClose = document.querySelector("#NASCAppclose")
+
+NASCAppScreenClose.addEventListener("click", () => closeWindow(NASCAppScreen));
+
 
