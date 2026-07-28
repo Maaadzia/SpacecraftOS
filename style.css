@@ -17,3 +17,8 @@
     overflow-y: scroll;
 }
 
+.NotesDisplay {
+    background-color:rgb(255, 248, 237); padding: 10px;
+    height: 77px;
+    border-radius: 5px;
+}
