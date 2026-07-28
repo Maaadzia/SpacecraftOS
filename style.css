@@ -9,3 +9,11 @@
     position: absolute; left: 50%; top: 55%; transform: translate(-50%, -50%); display: none;
 }
 
+.insideAppWindow {
+    border: solid; border-radius: 16px; text-align: justify;
+    background-color:rgb(250, 242, 229); padding: 16px; 
+    width: 850px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
