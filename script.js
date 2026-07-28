@@ -9,6 +9,7 @@ function updateTime() {
 
 dragElement(document.getElementById("issGuide"));
 dragElement(document.getElementById("starlinkGuide"));
+dragElement(document.getElementById("JamesWebbSpaceTelescopeApp"));
 //OPEN AND CLOSE WINDOW ISS GUIDE
 
 var issGuideScreen = document.querySelector("#issGuide")
@@ -60,4 +61,12 @@ starlinkGuideScreenOpen.addEventListener("click", function() {
   openWindow(starlinkGuideScreen);
 });
 
+
+//CLOSE JAMESWEBBAPP
+
+var JamesWebbSpaceTelescopeAppScreen = document.querySelector("#JamesWebbSpaceTelescopeApp")
+
+var JamesWebbSpaceTelescopeAppScreenClose = document.querySelector("#JamesWebbSpaceTelescopeAppclose")
+
+JamesWebbSpaceTelescopeAppScreenClose.addEventListener("click", () => closeWindow(JamesWebbSpaceTelescopeAppScreen));
 
