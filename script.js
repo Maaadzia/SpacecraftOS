@@ -155,3 +155,28 @@ var NASCAppScreenClose = document.querySelector("#NASCAppclose")
 NASCAppScreenClose.addEventListener("click", () => closeWindow(NASCAppScreen));
 
 
+
+//RISING ON TOP
+var biggestIndex = 1;
+
+function addWindowTapHandling(element) {
+  element.addEventListener("mousedown", () =>
+    handleWindowTap(element)
+  )
+}
+addWindowTapHandling(startScreen)
+addWindowTapHandling(issGuideScreen)
+addWindowTapHandling(starlinkGuideScreen)
+addWindowTapHandling(JamesWebbSpaceTelescopeAppScreen)
+
+function handleWindowTap(element) {
+  biggestIndex++;  // Increment biggestIndex by 1
+  element.style.zIndex = biggestIndex;
+}
+
+function openWindow(element) {
+  element.style.display = "flex";
+  biggestIndex++;  // Increment biggestIndex by 1
+  element.style.zIndex = biggestIndex;
+}
+
