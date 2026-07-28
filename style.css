@@ -1,0 +1,5 @@
+
+.selected {
+    filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
+}
+
