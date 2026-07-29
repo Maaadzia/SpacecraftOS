@@ -243,3 +243,22 @@ initializeWindow("start")
 initializeWindow("JamesWebbSpaceTelescopeApp")
 initializeWindow("NASCApp")
 
+
+
+var content = [
+{
+  content: '<p id="NASCAppContent" contenteditable="true" style="font-size: 27px;">
+              ✶ <dfn>Your toughts and ideas about spacecrafts</dfn>...
+            </p>'
+}
+]
+
+
+function setNASCAppContent(index) {
+
+  var NASCAppContent = document.querySelector("#NASCAppContent")
+
+  NASCAppContent.innerHTML = content[index].content
+}
+
+setNASCAppContent(0)
