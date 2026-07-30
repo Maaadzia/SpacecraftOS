@@ -256,4 +256,3 @@ initializeWindow("JamesWebbSpaceTelescopeApp")
 initializeWindow("NASCApp")
 initializeWindow("HubbleSpaceTelescopeApp")
 
-
