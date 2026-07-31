@@ -3,7 +3,13 @@ An Operating System with a space theme based on spaceships.
 
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
-**TRY IT: TBC**
+**TRY IT: https://maaadzia.github.io/SpacecraftOS/**
+
+How to run localy:
+1. Clone repository <br>
+` git clone https://github.com/Maaadzia/SpacecraftOS.git `
+2. Enter downloaded folder
+3. Open "index.html" in your browser
 
 ## Features
 On SpacecraftOS you can:
@@ -30,3 +36,10 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 7. HST photos to rank in App (HST zdj1/2/3/4/5) - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 8. HST Astronaut - NASA - https://science.nasa.gov/mission/hubble/overview/about-hubble/
 9. Notes App Icon is created by me
+
+**Youtube video**
+1. Sławosz Eating Pierogi on the ISS - https://www.youtube.com/watch?v=3hAwbPq9Auw
+
+**Information Sources**
+1. https://en.wikipedia.org/wiki/James_Webb_Space_Telescope
+2. https://en.wikipedia.org/wiki/Hubble_Space_Telescope
