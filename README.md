@@ -1,5 +1,5 @@
 # SpacecraftOS
-An Operating System with a space theme based on spaceships.
+An Operating System with a space theme based on spaceships. Learn, rate photos and enjoy this vojage!
 
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
