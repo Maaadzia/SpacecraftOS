@@ -22,3 +22,10 @@
     height: 77px;
     border-radius: 5px;
 }
+
+.AppsIcon {
+    width:fit-content; 
+    text-align: center; 
+    padding: 16px; 
+    cursor: pointer;
+}
