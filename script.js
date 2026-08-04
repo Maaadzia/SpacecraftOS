@@ -15,6 +15,7 @@ dragElement(document.getElementById("starlinkGuide"));
 dragElement(document.getElementById("JamesWebbSpaceTelescopeApp"));
 dragElement(document.getElementById("NASCApp"));
 dragElement(document.getElementById("HubbleSpaceTelescopeApp"));
+dragElement(document.getElementById("ArtemisApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -163,6 +164,14 @@ var HubbleSpaceTelescopeAppScreenClose = document.querySelector("#HubbleSpaceTel
 
 HubbleSpaceTelescopeAppScreenClose.addEventListener("click", () => closeWindow(HubbleSpaceTelescopeAppScreen));
 
+//CLOSE ARTEMISAPP
+
+var ArtemisAppScreen = document.querySelector("#ArtemisApp")
+
+var ArtemisAppScreenClose = document.querySelector("#ArtemisAppclose")
+
+ArtemisAppScreenClose.addEventListener("click", () => closeWindow(ArtemisAppScreen));
+
 
 
 //RISING ON TOP
@@ -179,6 +188,7 @@ addWindowTapHandling(starlinkGuideScreen)
 addWindowTapHandling(JamesWebbSpaceTelescopeAppScreen)
 addWindowTapHandling(NASCAppScreen)
 addWindowTapHandling(HubbleSpaceTelescopeAppScreen)
+addWindowTapHandling(ArtemisAppScreen)
 
 function handleWindowTap(element) {
   biggestIndex++;  // Increment biggestIndex by 1
@@ -243,6 +253,7 @@ icon.addEventListener("click", () => handleIconTap(icon, screen));
 initializeIcon("JamesWebbSpaceTelescopeApp")
 initializeIcon("NASCApp")
 initializeIcon("HubbleSpaceTelescopeApp")
+initializeIcon("ArtemisApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -255,4 +266,5 @@ initializeWindow("start")
 initializeWindow("JamesWebbSpaceTelescopeApp")
 initializeWindow("NASCApp")
 initializeWindow("HubbleSpaceTelescopeApp")
+initializeWindow("ArtemisApp")
 
