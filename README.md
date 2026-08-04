@@ -43,3 +43,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 **Information Sources**
 1. https://en.wikipedia.org/wiki/James_Webb_Space_Telescope
 2. https://en.wikipedia.org/wiki/Hubble_Space_Telescope
+
+## Ship 2 credits
+
+**Photos**
+1. Artemis App Icon - NASA/Joel Kowsky - https://www.nasa.gov/image-detail/artemis-ii-launch-11/
