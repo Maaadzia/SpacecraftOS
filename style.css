@@ -53,18 +53,3 @@
 .SLStransition:hover {
     transform: scale(2)
 }
-
-.slider {
-    position: relative;
-    width: 100%;
-    margin: auto;
-}
-
-.slider img {
-    width: 100%;
-    display: none;
-}
-
-img.displaySlide {
-    display: block;
-}
