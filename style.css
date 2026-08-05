@@ -47,9 +47,9 @@
 }
 
 .SLStransition {
-    transition: 500ms;
+    transition: 800ms;
 }
 
 .SLStransition:hover {
-    transform: scale(1.3)
+    transform: scale(2)
 }
