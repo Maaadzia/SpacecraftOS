@@ -53,3 +53,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 4. Artemis I map - NASA - https://www.nasa.gov/image-article/artemis-i-map-2/
 5. Artemis II map - NASA - https://www.nasa.gov/image-article/artemis-ii-map-2/
 6. Artemis II crew photos - NASA - https://www.nasa.gov/gallery/return-to-earth/
+
+**Information Sources**
+1. https://en.wikipedia.org/wiki/Artemis_I
+2. https://www.youtube.com/watch?v=c7owS-PRE0s
+3. https://www.nasa.gov/moonbase/
+4. https://www.nasa.gov/feature/our-artemis-crew/
