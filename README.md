@@ -58,6 +58,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 9. Artemis App astronaut - https://www.nasa.gov/missions/artemis/orion-suit-equipped-to-expect-the-unexpected-on-artemis-missions/
 10. Artemis App SLS - https://www.nasa.gov/image-detail/amf-nhq202604010307/
 
+**Youtube video tutorials**
+1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
+
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
 2. https://www.youtube.com/watch?v=c7owS-PRE0s
