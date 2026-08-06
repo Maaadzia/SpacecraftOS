@@ -60,6 +60,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 11. Moon from playlist app icon - NASA - https://science.nasa.gov/image-detail/amf-iss040e010643/
 12. Quaver/Eight note from playlist app icon - https://pixabay.com/pl/illustrations/nuta-%C3%B3sma-nuta-png-melodia-klucz-1275650/
 13. The Golden Record - https://en.wikipedia.org/wiki/Voyager_Golden_Record
+14. JWST building photo - NASA, David Higginbotham (NASA-MSFC) - https://science.nasa.gov/asset/webb/webbs-primary-mirror-segments-go-into-cryogenic-testing/
 
 **Youtube video and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
