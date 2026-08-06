@@ -61,6 +61,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 12. Quaver/Eight note from playlist app icon - https://pixabay.com/pl/illustrations/nuta-%C3%B3sma-nuta-png-melodia-klucz-1275650/
 13. The Golden Record - https://en.wikipedia.org/wiki/Voyager_Golden_Record
 14. JWST building photo - NASA, David Higginbotham (NASA-MSFC) - https://science.nasa.gov/asset/webb/webbs-primary-mirror-segments-go-into-cryogenic-testing/
+15. HST astronaut - NASA - https://science.nasa.gov/image-detail/27946761511-26bea52452-o/
 
 **Youtube video and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
