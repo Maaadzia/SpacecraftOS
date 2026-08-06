@@ -123,3 +123,12 @@
     transform: rotate(360deg)
     }
 }
+
+.AdditionalAppsIcon {
+    cursor: pointer;
+}
+
+.AdditionalAppsIcon:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
+}
