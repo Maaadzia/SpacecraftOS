@@ -55,6 +55,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 6. Artemis II crew photos - NASA - https://www.nasa.gov/gallery/return-to-earth/
 7. Artemis III SLS - Eric Bordelon - https://www.nasa.gov/image-detail/amf-maf_20260420_artiii_rollout-epb_028/
 8. The SLS rocket image - NASA/MSFC - https://www.nasa.gov/image-article/nasa-space-launch-system-sls-rocket/
+9. Artemis App astronaut - https://www.nasa.gov/missions/artemis/orion-suit-equipped-to-expect-the-unexpected-on-artemis-missions/
+10. Artemis App SLS - https://www.nasa.gov/image-detail/amf-nhq202604010307/
 
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
@@ -64,3 +66,6 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 5. https://www.nasa.gov/missions/artemis/artemis-3/nasa-outlines-preliminary-artemis-iii-mission-plans/
 6. https://www.nasa.gov/image-article/nasa-space-launch-system-sls-rocket/
 7. https://en.wikipedia.org/wiki/Space_Launch_System
+
+**Other**
+1. I used this background remover - https://www.remove.bg/
