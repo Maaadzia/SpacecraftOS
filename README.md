@@ -55,11 +55,15 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 6. Artemis II crew photos - NASA - https://www.nasa.gov/gallery/return-to-earth/
 7. Artemis III SLS - Eric Bordelon - https://www.nasa.gov/image-detail/amf-maf_20260420_artiii_rollout-epb_028/
 8. The SLS rocket image - NASA/MSFC - https://www.nasa.gov/image-article/nasa-space-launch-system-sls-rocket/
-9. Artemis App astronaut - https://www.nasa.gov/missions/artemis/orion-suit-equipped-to-expect-the-unexpected-on-artemis-missions/
-10. Artemis App SLS - https://www.nasa.gov/image-detail/amf-nhq202604010307/
+9. Artemis App astronaut - NASA-  https://www.nasa.gov/missions/artemis/orion-suit-equipped-to-expect-the-unexpected-on-artemis-missions/
+10. Artemis App SLS - NASA - https://www.nasa.gov/image-detail/amf-nhq202604010307/
+11. Moon from playlist app icon - NASA - https://science.nasa.gov/image-detail/amf-iss040e010643/
+12. Quaver/Eight note from playlist app icon - https://pixabay.com/pl/illustrations/nuta-%C3%B3sma-nuta-png-melodia-klucz-1275650/
 
-**Youtube video tutorials**
+**Youtube video and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
+2. https://www.youtube.com/watch?v=Yc5BG7vgCa4 - spotify widget (a little guidance because it's really outdate)
+3. https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed spotify widget tutorial from spotify
 
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
