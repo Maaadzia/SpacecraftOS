@@ -59,11 +59,13 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 10. Artemis App SLS - NASA - https://www.nasa.gov/image-detail/amf-nhq202604010307/
 11. Moon from playlist app icon - NASA - https://science.nasa.gov/image-detail/amf-iss040e010643/
 12. Quaver/Eight note from playlist app icon - https://pixabay.com/pl/illustrations/nuta-%C3%B3sma-nuta-png-melodia-klucz-1275650/
+13. The Golden Record - https://en.wikipedia.org/wiki/Voyager_Golden_Record
 
 **Youtube video and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
 2. https://www.youtube.com/watch?v=Yc5BG7vgCa4 - spotify widget (a little guidance because it's really outdate)
 3. https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed spotify widget tutorial from spotify
+4. https://www.youtube.com/watch?v=z2LQYsZhsFw - animations tutorial
 
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
