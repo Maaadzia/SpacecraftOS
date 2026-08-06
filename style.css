@@ -61,7 +61,10 @@
 .slider-wrapper {
     position: relative;
     max-width: 800px;
+    max-height: 300px;
     margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .slider {
