@@ -53,3 +53,19 @@
 .SaLSatransition:hover {
     transform: scale(2)
 }
+
+.container {
+    padding: 5px;
+}
+
+.slider-wrapper {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider {
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+}
