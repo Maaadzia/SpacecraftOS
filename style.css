@@ -6,7 +6,7 @@
 .outsideAppWindow { 
     border: solid; border-radius: 10px; background-color: #312f6c2b; backdrop-filter: blur(7px);
     padding: 10px; margin: 0px; width: fit-content; padding: 7px; flex-direction: column;
-    position: absolute; left: 50%; top: 55%; transform: translate(-50%, -50%); display: none;
+    position: absolute; left: 50%; top: 45%; transform: translate(-50%, -50%); display: none;
 }
 
 .insideAppWindow {
