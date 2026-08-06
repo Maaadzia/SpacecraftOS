@@ -72,3 +72,32 @@
     scroll-behavior: smooth;
     border-radius: 5px;
 }
+
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav {
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a {
+    width: 10px;
+    height: 10px;
+    border-radius: 75%;
+    background-color: rgb(250, 242, 229);
+    opacity: 50%;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+    opacity: 100%;
+}
