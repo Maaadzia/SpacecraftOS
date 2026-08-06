@@ -104,3 +104,22 @@
 .slider-nav a:hover {
     opacity: 100%;
 }
+
+.golden {
+    animation-name: goldenSpin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes goldenSpin {
+
+    0% {
+    
+
+    }
+
+    100%{
+    transform: rotate(360deg)
+    }
+}
