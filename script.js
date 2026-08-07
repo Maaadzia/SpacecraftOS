@@ -17,6 +17,7 @@ dragElement(document.getElementById("NASCApp"));
 dragElement(document.getElementById("HubbleSpaceTelescopeApp"));
 dragElement(document.getElementById("ArtemisApp"));
 dragElement(document.getElementById("PlaylistApp"));
+dragElement(document.getElementById("Settings"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -227,6 +228,31 @@ function handleWindowTap(element) {
   topBar.style.zIndex = biggestIndex + 1;
   deselectIcon(selectedIcon)
 }
+
+//OPEN AND CLOSE WINDOW SETTINGS
+
+var SettingsScreen = document.querySelector("#Settings")
+
+function closeWindow(element) {
+  element.style.display = "none"
+}
+
+function openWindow(element) {
+  element.style.display = "flex"
+}
+
+
+var SettingsScreenClose = document.querySelector("#Settingsclose")
+
+var SettingsScreenOpen = document.querySelector("#Settingsopen")
+
+
+SettingsScreenClose.addEventListener("click", function() {
+  closeWindow(SettingsScreen);
+});
+SettingsScreenOpen.addEventListener("click", function() {
+  openWindow(SettingsScreen);
+});
 
 
 
