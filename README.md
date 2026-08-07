@@ -77,6 +77,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 14. JWST building photo - NASA, David Higginbotham (NASA-MSFC) - https://science.nasa.gov/asset/webb/webbs-primary-mirror-segments-go-into-cryogenic-testing/
 15. HST astronaut - NASA - https://science.nasa.gov/image-detail/27946761511-26bea52452-o/
 16. Light/Dark mood icons - Google fonts - https://fonts.google.com/icons
+17. ISS on the ISS catch guide border - NASA/Roscosmos - https://www.nasa.gov/international-space-station/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
