@@ -2,12 +2,30 @@
     --window-color: rgb(250, 242, 229);
     --text-color: #000000;
     --link-color: #090d74;
+    --switch-color: #353c47;
 }
 
 .darkmode {
     --window-color: #353c47;
     --text-color: rgb(250, 242, 229);
     --link-color: rgb(255, 251, 245);
+    --switch-color: rgb(250, 242, 229);
+}
+
+#theme-switch {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 1px;
+    background-color: var(--switch-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 150px;
+    left: 200px;
+}
+
 }
 
 a {
