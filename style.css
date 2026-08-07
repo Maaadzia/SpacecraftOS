@@ -1,3 +1,7 @@
+:root {
+    --window-color: rgb(250, 242, 229);
+    --text-color: #000000;
+}
 
 .selected {
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
@@ -11,10 +15,11 @@
 
 .insideAppWindow {
     border: solid; border-radius: 16px; text-align: justify;
-    background-color:rgb(250, 242, 229); padding: 16px; 
+    background-color: var(--window-color); padding: 16px; 
     width: 850px;
     height: 300px;
     overflow-y: scroll;
+    color: var(--text-color)
 }
 
 .NotesDisplay {
