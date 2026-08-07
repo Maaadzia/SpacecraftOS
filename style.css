@@ -3,6 +3,12 @@
     --text-color: #000000;
 }
 
+.darkmode {
+    --window-color: #353c47;
+    --text-color: rgb(250, 242, 229);
+}
+}
+
 .selected {
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
 }
