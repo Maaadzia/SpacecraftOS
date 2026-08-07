@@ -1,5 +1,5 @@
 # SpacecraftOS
-An Operating System with a space theme based on spaceships. Learn, rate photos and enjoy this vojage!
+An Operating System with a space theme based on spaceships. Learn, admire the works of humanity and enjoy this vojage!
 
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
@@ -15,9 +15,23 @@ How to run localy:
 On SpacecraftOS you can:
 1. Learn about Spacecrafts
 2. Learn how to see spacecrafts like ISS on your sky
-3. Watch polish astronaut (Sławosz Uznański) eating polish delicious dish (pierogi) on the ISS
+3. Listen to Artemis II wake up songs
 4. Rate picturesque photos from telescopes
 5. And if something inspires you, you can write it down in Notes app - Spacecraft Ideas
+
+## Apps 
+You will find 8, well-thought-out apps and:
+- Spacecrafts Apps
+1. James Webb Space Telescope App - where you can learn about this telescope and rate some amazing photos it took
+2. Hubble Space Telescope App - where you also can learn about Hubble and rate some photos
+3. Artemis Mission App - where you can learn not only about Artemis II but about the whole mission!
+- Additional Apps
+4. Spacecraft Ideas - where you can write down things, that inspired you
+5. Artemis II playlist - where you can listen to wake up songs that Artemis II crew had listened to durning theirs mission!
+6. Settings - where you can switch the mode from light to dark (or vice-versa) more to come soon!
+- Catch Guides
+7. ISS catch guide - where you get to know how spot the ISS on your sky (or watch Sławosz eating polish pierogi on the ISS)
+8. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
 ## Credits
 Huge thanks to all of these sources. Without them, this project would be nothing! 
