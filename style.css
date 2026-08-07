@@ -26,6 +26,16 @@
     left: 200px;
 }
 
+#theme-switch img:last-child {
+    display: none;
+}
+
+.darkmode #theme-switch img:first-child {
+    display: none;
+}
+
+.darkmode #theme-switch img:last-child {
+    display: block;
 }
 
 a {
