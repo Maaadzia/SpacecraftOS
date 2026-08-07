@@ -1,12 +1,17 @@
 :root {
     --window-color: rgb(250, 242, 229);
     --text-color: #000000;
+    --link-color: #090d74;
 }
 
 .darkmode {
     --window-color: #353c47;
     --text-color: rgb(250, 242, 229);
+    --link-color: rgb(255, 251, 245);
 }
+
+a {
+    color: var(--link-color)
 }
 
 .selected {
