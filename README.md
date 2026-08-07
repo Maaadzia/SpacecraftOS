@@ -63,11 +63,12 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 14. JWST building photo - NASA, David Higginbotham (NASA-MSFC) - https://science.nasa.gov/asset/webb/webbs-primary-mirror-segments-go-into-cryogenic-testing/
 15. HST astronaut - NASA - https://science.nasa.gov/image-detail/27946761511-26bea52452-o/
 
-**Youtube video and other tutorials**
+**Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
 2. https://www.youtube.com/watch?v=Yc5BG7vgCa4 - spotify widget (a little guidance because it's really outdate)
 3. https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed spotify widget tutorial from spotify
 4. https://www.youtube.com/watch?v=z2LQYsZhsFw - animations tutorial
+5. https://www.youtube.com/watch?v=_gKEUYarehE - darkmode/lightmode tutorial
 
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
