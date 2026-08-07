@@ -200,6 +200,7 @@ addWindowTapHandling(NASCAppScreen)
 addWindowTapHandling(HubbleSpaceTelescopeAppScreen)
 addWindowTapHandling(ArtemisAppScreen)
 addWindowTapHandling(PlaylistAppScreen)
+addWindowTapHandling(SettingsScreen)
 
 function handleWindowTap(element) {
   biggestIndex++;  // Increment biggestIndex by 1
