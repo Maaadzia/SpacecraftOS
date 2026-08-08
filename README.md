@@ -33,6 +33,12 @@ You will find 8, well-thought-out apps and:
 7. ISS catch guide - where you get to know how spot the ISS on your sky (or watch Sławosz eating polish pierogi on the ISS)
 8. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
+##
+
+<img style="width: 640px; height: 304px; border-radius: 2px;" src="SpacecraftOS screenshoot.png">
+
+##
+
 ## Ship 2 main updates
 1. New Artemis App
 2. Second new app - Artemis II Playlist
