@@ -1,7 +1,7 @@
 # SpacecraftOS
 An Operating System with a space theme based on spacecrafts. Learn, admire the works of humanity and enjoy this vojage!
 
-<img style="width: 275px; height: 250px;" src="SpacecraftOS Gif2.gif">
+<img style="width: 275px; height: 250px;" src="SpacecraftOS Gif2.1.gif">
 
 **TRY IT: https://maaadzia.github.io/SpacecraftOS/**
 
