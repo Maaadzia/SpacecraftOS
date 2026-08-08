@@ -51,6 +51,10 @@
         display: block;
     }
 
+    80% {
+        display: none
+    }
+
     100% {
         display: none
     }
@@ -71,6 +75,10 @@
 
     50% {
         top: 0%; left: 0%; display: block;
+    }
+
+    80% {
+        top: 0%; left: 0%; display: none
     }
 
     100% {
