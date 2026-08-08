@@ -78,6 +78,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 15. HST astronaut - NASA - https://science.nasa.gov/image-detail/27946761511-26bea52452-o/
 16. Light/Dark mood icons - Google fonts - https://fonts.google.com/icons
 17. ISS on the ISS catch guide border - NASA/Roscosmos - https://www.nasa.gov/international-space-station/
+18. Title icon - Google fonts - https://fonts.google.com/icons
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=McPdzhLRzCg - image slider
@@ -85,6 +86,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 3. https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed spotify widget tutorial from spotify
 4. https://www.youtube.com/watch?v=z2LQYsZhsFw - animations tutorial
 5. https://www.youtube.com/watch?v=_gKEUYarehE - darkmode/lightmode tutorial
+6. https://www.youtube.com/watch?v=8iXHciqlAdA - title icon tutorial
 
 **Information Sources**
 1. https://en.wikipedia.org/wiki/Artemis_I
