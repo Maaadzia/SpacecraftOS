@@ -1,7 +1,7 @@
 # SpacecraftOS
 An Operating System with a space theme based on spaceships. Learn, admire the works of humanity and enjoy this vojage!
 
-<img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
+<img style="width: 275px; height: 250px;" src="SpacecraftOS Gif2.gif">
 
 **TRY IT: https://maaadzia.github.io/SpacecraftOS/**
 
@@ -32,6 +32,13 @@ You will find 8, well-thought-out apps and:
 - **Catch Guides**
 7. ISS catch guide - where you get to know how spot the ISS on your sky (or watch Sławosz eating polish pierogi on the ISS)
 8. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
+
+## Ship 2 main updates
+1. New Artemis App
+2. Second new app - Artemis II Playlist
+3. Settings and light/dark mode switch
+Previous README gif: 
+<img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
 ## Credits
 Huge thanks to all of these sources. Without them, this project would be nothing! 
