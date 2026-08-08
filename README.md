@@ -1,5 +1,5 @@
 # SpacecraftOS
-An Operating System with a space theme based on spaceships. Learn, admire the works of humanity and enjoy this vojage!
+An Operating System with a space theme based on spacecrafts. Learn, admire the works of humanity and enjoy this vojage!
 
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif2.gif">
 
@@ -20,7 +20,7 @@ On SpacecraftOS you can:
 5. And if something inspires you, you can write it down in Notes app - Spacecraft Ideas
 
 ## Apps 
-You will find 8, well-thought-out apps and:
+You will find 8, well-thought-out apps:
 - **Spacecrafts Apps**
 1. James Webb Space Telescope App - where you can learn about this telescope and rate some amazing photos it took
 2. Hubble Space Telescope App - where you also can learn about Hubble and rate some photos
@@ -28,9 +28,9 @@ You will find 8, well-thought-out apps and:
 - **Additional Apps**
 4. Spacecraft Ideas - where you can write down things, that inspired you
 5. Artemis II playlist - where you can listen to wake up songs that Artemis II crew had listened to durning theirs mission!
-6. Settings - where you can switch the mode from light to dark (or vice-versa) more to come soon!
+6. Settings - where you can switch the mode from light to dark (or vice-versa), more to come soon!
 - **Catch Guides**
-7. ISS catch guide - where you get to know how spot the ISS on your sky (or watch Sławosz eating polish pierogi on the ISS)
+7. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
 8. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
 <img style="width: 640px; height: 304px; border-radius: 2px;" src="SpacecraftOS screenshoot.png">
@@ -39,6 +39,7 @@ You will find 8, well-thought-out apps and:
 1. New Artemis App
 2. Second new app - Artemis II Playlist
 3. Settings and light/dark mode switch <br>
+
 Previous README gif: <br>
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
