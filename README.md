@@ -37,7 +37,7 @@ You will find 8, well-thought-out apps and:
 1. New Artemis App
 2. Second new app - Artemis II Playlist
 3. Settings and light/dark mode switch
-Previous README gif: 
+Previous README gif: <br>
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
 ## Credits
