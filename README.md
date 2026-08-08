@@ -96,6 +96,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 5. https://www.nasa.gov/missions/artemis/artemis-3/nasa-outlines-preliminary-artemis-iii-mission-plans/
 6. https://www.nasa.gov/image-article/nasa-space-launch-system-sls-rocket/
 7. https://en.wikipedia.org/wiki/Space_Launch_System
+8. https://en.wikipedia.org/wiki/Artemis_program#
+9. https://www.nasa.gov/mission/artemis-iii/
+10. https://www.nasa.gov/mission/artemis-iv/
 
 **Other**
 1. I used this background remover - https://www.remove.bg/
