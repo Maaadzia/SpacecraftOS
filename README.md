@@ -36,7 +36,8 @@ You will find 8, well-thought-out apps and:
 ## Ship 2 main updates
 1. New Artemis App
 2. Second new app - Artemis II Playlist
-3. Settings and light/dark mode switch
+3. Settings and light/dark mode switch 
+<br>
 Previous README gif: <br>
 <img style="width: 275px; height: 250px;" src="SpacecraftOS Gif1.gif">
 
