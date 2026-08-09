@@ -18,6 +18,7 @@ dragElement(document.getElementById("HubbleSpaceTelescopeApp"));
 dragElement(document.getElementById("ArtemisApp"));
 dragElement(document.getElementById("PlaylistApp"));
 dragElement(document.getElementById("Settings"));
+dragElement(document.getElementById("PhotosApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -182,6 +183,14 @@ var PlaylistAppScreenClose = document.querySelector("#PlaylistAppclose")
 
 PlaylistAppScreenClose.addEventListener("click", () => closeWindow(PlaylistAppScreen));
 
+//CLOSE PHOTOSAPP 
+
+var PhotosAppScreen = document.querySelector("#PhotosApp")
+
+var PhotosAppScreenClose = document.querySelector("#PhotosAppclose")
+
+PhotosAppScreenClose.addEventListener("click", () => closeWindow(PhotosAppScreen));
+
 
 
 //RISING ON TOP
@@ -292,6 +301,7 @@ initializeIcon("NASCApp")
 initializeIcon("HubbleSpaceTelescopeApp")
 initializeIcon("ArtemisApp")
 initializeIcon("PlaylistApp")
+initializeIcon("PhotosApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -306,5 +316,6 @@ initializeWindow("NASCApp")
 initializeWindow("HubbleSpaceTelescopeApp")
 initializeWindow("ArtemisApp")
 initializeWindow("PlaylistApp")
+initializeWindow("PhotosApp")
 
 
