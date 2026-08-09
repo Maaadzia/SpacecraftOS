@@ -209,6 +209,7 @@ addWindowTapHandling(NASCAppScreen)
 addWindowTapHandling(HubbleSpaceTelescopeAppScreen)
 addWindowTapHandling(ArtemisAppScreen)
 addWindowTapHandling(PlaylistAppScreen)
+addWindowTapHandling(PhotosAppScreen)
 
 
 function handleWindowTap(element) {
