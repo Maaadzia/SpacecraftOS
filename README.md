@@ -113,6 +113,22 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 **Other**
 1. I used this background remover - https://www.remove.bg/
 
+## Ship 3 Credits
+
+**Photos**
+1. Golden Record images - https://science.nasa.gov/gallery/images-on-the-golden-record/
+1.1. Astronaut in space - NASA
+1.2. Page of book (Newton, System of the World) - National Astronomy and Ionosphere Center, Cornell University (NAIC)
+1.3. Sprinters (Valeri Borzov of the U.S.S.R. in lead) - History of the Olympics, Picturepoint, London
+1.4. Titan Centaur launch - NASA
+1.5. X-ray of hand - National Astronomy and Ionosphere Center, Cornell University (NAIC)
+2. Vojager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
+
+**Youtube videos and other tutorials**
+1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
+
+**Information Sources**
+
 ## 
 
 Build for NASA stardance challange with the webOS mission
