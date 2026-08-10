@@ -109,6 +109,15 @@ a {
     color: var(--text-color)
 }
 
+.insideAppWindow-noscroll {
+    border: solid; border-radius: 16px; text-align: justify;
+    background-color: var(--window-color); padding: 16px; 
+    width: 850px;
+    height: 300px;
+    overflow-y: none;
+    color: var(--text-color)
+}
+
 .NotesDisplay {
     background-color:rgb(255, 248, 237); padding: 10px;
     height: 77px;
