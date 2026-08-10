@@ -122,6 +122,12 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 1.3. Sprinters (Valeri Borzov of the U.S.S.R. in lead) - History of the Olympics, Picturepoint, London
 1.4. Titan Centaur launch - NASA
 1.5. X-ray of hand - National Astronomy and Ionosphere Center, Cornell University (NAIC)
+1.6. Earth - NASA
+1.7. Mars - NASA
+1.8. Mercury - NASA
+1.9. Modern highway - National Astronomy and Ionosphere Center, Cornell University (NAIC)
+1.10. Radio telescope (Arecibo) - National Astronomy and Ionosphere Center, Cornell University (NAIC)
+1.11. Airplane in flight - Frank Drake
 2. Vojager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 
 **Youtube videos and other tutorials**
