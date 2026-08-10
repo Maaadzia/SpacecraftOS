@@ -224,3 +224,34 @@ a {
     transform: scale(1.1);
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
 }
+
+.karuzela {
+    width: 99%;
+    height: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+.karuzela::-webkit-scrollbar {
+    display: none;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: VojagerPhotosKaruzela 25s infinite linear;
+    padding-right: 1em;
+}
+
+.card {
+    width: 288px;
+    height: 216px;
+    flex: 0 0 5em;
+}
+
+@keyframes VojagerPhotosKaruzela {
+    from {translate: 0;}
+    to {translate: -100%;}
+}
