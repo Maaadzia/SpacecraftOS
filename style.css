@@ -268,3 +268,14 @@ a {
     from {translate: 0;}
     to {translate: -100%;}
 }
+
+.INFORMATION {
+    color: var(--window-color);
+    scale: 1;
+    transition: 150ms ease-in-out
+}
+
+.INFORMATION:hover {
+    color: var(--switch-color);
+    scale: 2
+}
