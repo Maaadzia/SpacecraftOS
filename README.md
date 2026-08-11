@@ -128,7 +128,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 1.9. Mars - NASA
 1.10. Radio telescope (Arecibo) - National Astronomy and Ionosphere Center, Cornell University (NAIC)
 1.11. Airplane in flight - Frank Drake
-2. Vojager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
+2. Voyager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
+3. Voyager App Icon - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
