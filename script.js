@@ -19,6 +19,7 @@ dragElement(document.getElementById("ArtemisApp"));
 dragElement(document.getElementById("PlaylistApp"));
 dragElement(document.getElementById("Settings"));
 dragElement(document.getElementById("PhotosApp"));
+dragElement(document.getElementById("VoyagerApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -191,6 +192,14 @@ var PhotosAppScreenClose = document.querySelector("#PhotosAppclose")
 
 PhotosAppScreenClose.addEventListener("click", () => closeWindow(PhotosAppScreen));
 
+//CLOSE VOYAGERAPP  
+
+var VoyagerAppScreen = document.querySelector("#VoyagerApp")
+
+var VoyagerAppScreenClose = document.querySelector("#VoyagerAppclose")
+
+VoyagerAppScreenClose.addEventListener("click", () => closeWindow(VoyagerAppScreen));
+
 
 
 //RISING ON TOP
@@ -210,6 +219,7 @@ addWindowTapHandling(HubbleSpaceTelescopeAppScreen)
 addWindowTapHandling(ArtemisAppScreen)
 addWindowTapHandling(PlaylistAppScreen)
 addWindowTapHandling(PhotosAppScreen)
+addWindowTapHandling(VoyagerAppScreen)
 
 
 function handleWindowTap(element) {
@@ -303,6 +313,7 @@ initializeIcon("HubbleSpaceTelescopeApp")
 initializeIcon("ArtemisApp")
 initializeIcon("PlaylistApp")
 initializeIcon("PhotosApp")
+initializeIcon("VoyagerApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -318,5 +329,6 @@ initializeWindow("HubbleSpaceTelescopeApp")
 initializeWindow("ArtemisApp")
 initializeWindow("PlaylistApp")
 initializeWindow("PhotosApp")
+initializeWindow("VoyagerApp")
 
 
