@@ -260,6 +260,10 @@ a {
     flex: 0 0 5em;
 }
 
+.card:hover {
+    transform: scale(1.08);
+}
+
 @keyframes VojagerPhotosKaruzela {
     from {translate: 0;}
     to {translate: -100%;}
