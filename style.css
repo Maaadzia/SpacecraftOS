@@ -258,6 +258,7 @@ a {
     width: 288px;
     height: 216px;
     flex: 0 0 5em;
+    transition: 150ms ease-in-out
 }
 
 .card:hover {
@@ -271,11 +272,17 @@ a {
 
 .INFORMATION {
     color: var(--window-color);
-    scale: 1;
-    transition: 150ms ease-in-out
+    scale: 0.5;
+    transition: 500ms ease-in-out;
+    transform: rotate(0deg);
 }
 
 .INFORMATION:hover {
+    border: solid var(--switch-color);
+    border-radius: 2px;
     color: var(--switch-color);
-    scale: 2
+    scale: 2;
+    transform: rotate(0deg);
+    background-color: var(--window-color);
+    box-shadow: 1px 1px 100px var(--switch-color);
 }
