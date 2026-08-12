@@ -130,6 +130,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 1.11. Airplane in flight - Frank Drake
 2. Voyager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 3. Voyager App Icon - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/
+4. Voyager Instruments - NASA/JPL-Caltech - https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
