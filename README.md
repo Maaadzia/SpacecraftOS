@@ -54,7 +54,10 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 1. Background - NASA - https://www.nasa.gov/international-space-station/desktop-and-mobile-wallpapers/
 2. James Webb Space Telescope App Icon - NASA - https://science.nasa.gov/mission/webb/
 3. James Webb Space Telescope Spacecraft Model - NASA - https://www.jwst.nasa.gov/content/webbLaunch/whereIsWebb.html
-4. JWST photos to rank in app (JWST zdj1, zdj2, zdj3) - NASA - https://www.nasa.gov/gallery/james-webb-space-telescope/
+4. JWST photos to rank in app (JWST zdj1, zdj2, zdj3) - https://www.nasa.gov/gallery/james-webb-space-telescope/
+4.1. NASA, ESA, CSA, STScI; Joseph DePasquale (STScI), Anton M. Koekemoer (STScI), Alyssa Pagan (STScI)
+4.2. NASA, ESA, CSA, STScI, Klaus Pontoppidan (NASA-JPL), Joel Green (STScI)
+4.3. NASA, ESA, CSA, and STScI. Image processing: J. DePasquale (STScI)
 5. Hubble Space Telescope App - Author: @roberta86 - License: CC BY-SA 4.0 - Website: https://wallpapercat.com/hubble-space-telescope-wallpapers
 6. Hubble Space Telescope Spacecraft Model - NASA - http://spaceflight.nasa.gov/gallery/images/shuttle/sts-125/html/s125e012050.html
 7. HST photos to rank in App (HST zdj1/2/3/4/5) - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
