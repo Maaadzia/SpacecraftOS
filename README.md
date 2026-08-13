@@ -140,9 +140,12 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 8. Uranus - probably NASA/JPL - https://science.nasa.gov/gallery/voyager-at-uranus/
 9. Neptune False Color Image of Haze - probably NASA/JPL, producer: JPL - https://science.nasa.gov/image-detail/amf-pia00057/
 10. HST App 6th rating photo (Egg Nebula) - NASA, ESA, Bruce Balick (UWashington) - https://science.nasa.gov/image-detail/amf-eeb82bd3-22dd-4764-9e4c-b27f645cd083/
+11. Aurora background - NASA - https://www.nasa.gov/international-space-station/desktop-and-mobile-wallpapers/
+12. Moon background - NASA - https://www.nasa.gov/artemis-ii-mobile-wallpapers/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
+2. https://www.youtube.com/watch?v=WbnCll6vvw4
 
 **Information Sources**
 1. https://www.planetary.org/space-missions/voyager

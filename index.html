@@ -11,7 +11,7 @@
     </head>
 
   <body 
-    style="background-image: url(./background2.png); background-size: cover; background-color: rgb(250, 242, 229);
+    style="background-image: var(--background-image); background-size: cover; background-color: rgb(250, 242, 229);
     font-family: 'Finlandica Text', sans-serif;">
 
     <img src="1Black.jpg" style=" position: absolute; margin: 0px; padding: 0px; top: 0%; left: 0%;
@@ -374,17 +374,15 @@
                                 <label for="fiveStar"> 5⭐ </label>
                     </div>
                     <div>
-                        <p style="margin-left: 150px; margin-top: 140px;"><dfn>Pillars of Creation</dfn></p>
-                        <p style="margin-left: 150px; margin-top: 320px;"><dfn>Gassy Baby Stars</dfn></p>
-                        <p style="margin-left: 150px; margin-top: 310px;"><dfn>Young Star's Outbursts</dfn></p>
+                        <p style="margin-left: 140px; margin-top: 140px; font-size: 20px;"><dfn>Pillars of Creation</dfn></p>
+                        <p style="margin-left: 140px; margin-top: 320px; font-size: 20px;"><dfn>Gassy Baby Stars</dfn></p>
+                        <p style="margin-left: 140px; margin-top: 315px; font-size: 20px;"><dfn>Young Star's Outbursts</dfn></p>
                     </div>
                 </div>
                     <br> <br> <br>
                 <strong> Sources: </strong><br>
                 1. Wikipedia - <a href="https://en.wikipedia.org/wiki/James_Webb_Space_Telescope">
                 https://en.wikipedia.org/wiki/James_Webb_Space_Telescope  </a>
-                
-                
                 
                 </p>
             
@@ -557,12 +555,12 @@
                                 <label for="fiveStar"> 5⭐ </label>
                     </div>
                     <div>
-                        <p style="margin-left: 130px; margin-top: 140px;"><dfn>Galaxy Pair NGC 4302 and NGC 4298</dfn></p>
-                        <p style="margin-left: 130px; margin-top: 320px;"><dfn>Spiral Galaxy NGC 7331</dfn></p>
-                        <p style="margin-left: 130px; margin-top: 325px;"><dfn>Planetary Nebula Abell 78</dfn></p>
-                        <p style="margin-left: 130px; margin-top: 330px;"><dfn>Crab Nebula</dfn></p>
-                        <p style="margin-left: 130px; margin-top: 335px;"><dfn>Spiral Galaxy NGC 1309</dfn></p>
-                        <p style="margin-left: 130px; margin-top: 340px;"><dfn>Egg Nebula</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 140px; font-size: 20px;"><dfn>Galaxy Pair NGC 4302 and NGC 4298</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 320px; font-size: 20px;"><dfn>Spiral Galaxy NGC 7331</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 325px; font-size: 20px;"><dfn>Planetary Nebula Abell 78</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 328px; font-size: 20px;"><dfn>Crab Nebula</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 315px; font-size: 20px;"><dfn>Spiral Galaxy NGC 1309</dfn></p>
+                        <p style="margin-left: 120px; margin-top: 325px; font-size: 20px;"><dfn>Egg Nebula</dfn></p>
                     </div>
                 </div>
                 
@@ -584,8 +582,6 @@
                 3. NASA - what did Hubble see on your birthday?: <br>
                 <a href="https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/"
                 >https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/</a>
-                
-                
                 
                 </p>
             
@@ -1175,6 +1171,22 @@
                         <img src="light_mode_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
                     </button>
                 </p>
+
+                <form class="color-picker" action="">
+                    <fieldset>
+                        <legend>Pick a background photo</legend>
+
+                        <label for="theme">River</label>
+                        <input type="radio" name="theme" id="River" checked>
+
+                        <label for="theme">Aurora</label>
+                        <input type="radio" name="theme" id="Aurora">
+
+                        <label for="theme">Moon</label>
+                        <input type="radio" name="theme" id="Moon">
+                        
+                    </fieldset>
+                </form>
 
                 </div>
 
