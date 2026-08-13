@@ -131,11 +131,21 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 2. Voyager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 3. Voyager App Icon - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/
 4. Voyager Instruments - NASA/JPL-Caltech - https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/
+5. "Pale Blue Dot" - NASA/JPL-Caltech - https://science.nasa.gov/mission/voyager/images-voyager-took/
+6. Jupiter’s Great Red Spot - NASA/JPL-Caltech - https://science.nasa.gov/image-detail/pia01384/
+7. Beyond Saturn - NASA/JPL-Caltech - https://science.nasa.gov/image-detail/pia00335-3/
+8. Uranus - probably NASA/JPL - https://science.nasa.gov/gallery/voyager-at-uranus/
+9. Neptune False Color Image of Haze - probably NASA/JPL, producer: JPL - https://science.nasa.gov/image-detail/amf-pia00057/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
 
 **Information Sources**
+1. https://www.planetary.org/space-missions/voyager
+2. https://science.nasa.gov/mission/voyager/voyager-golden-record-overview/
+3. https://science.nasa.gov/mission/voyager/
+4. https://science.nasa.gov/saturn/moons/titan/exploration/
+5. https://www.quora.com/Why-did-Voyager-1-only-visit-2-planets
 
 ## 
 
