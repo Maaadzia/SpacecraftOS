@@ -139,6 +139,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 7. Beyond Saturn - NASA/JPL-Caltech - https://science.nasa.gov/image-detail/pia00335-3/
 8. Uranus - probably NASA/JPL - https://science.nasa.gov/gallery/voyager-at-uranus/
 9. Neptune False Color Image of Haze - probably NASA/JPL, producer: JPL - https://science.nasa.gov/image-detail/amf-pia00057/
+10. HST App 6th rating photo (Egg Nebula) - NASA, ESA, Bruce Balick (UWashington) - https://science.nasa.gov/image-detail/amf-eeb82bd3-22dd-4764-9e4c-b27f645cd083/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
