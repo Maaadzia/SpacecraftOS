@@ -329,6 +329,7 @@ a {
     --radio-color: #abc6e4
 }
 
+.Aurora,
 :root:has(#Aurora:checked) {
     --window-color: #d3ffbcda;
     --text-color: #397b18;
@@ -337,6 +338,8 @@ a {
     --background-image: url(./background3.png);
 }
 
+
+.Moon,
 :root:has(#Moon:checked) {
     --window-color: #cde4fd;
     --text-color: #15162d;

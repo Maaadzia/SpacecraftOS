@@ -5,13 +5,15 @@ const storeTheme = function(theme) {
     localStorage.setItem("theme", theme)
 };
 
-const retrieveTheme = function() {
+const setTheme = function() {
     const activeTheme = localStorage.getItem("theme")
     colorThemes.forEach((themeChange) => {
         if (themeChange.id === activeTheme) {
             themeChange.checked = true
         }
     })
+    //IF HAS NOT WORKS (FALLBACK FOR NO :HAS() SUPPORT)
+    document.documentElement.className = theme
 }
 
 colorThemes.forEach((themeChange) => {
@@ -20,4 +22,4 @@ colorThemes.forEach((themeChange) => {
     })
 })
 
-document.onload = retrieveTheme()
+document.onload = setTheme()
