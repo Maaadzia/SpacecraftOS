@@ -1171,19 +1171,29 @@
                         <img src="light_mode_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg">
                     </button>
                 </p>
+                <br>
+                <p>
+                    <strong>Pick a theme (lightmode required) </strong>
+                </p>
 
                 <form class="color-picker" action="">
                     <fieldset>
-                        <legend>Pick a background photo</legend>
+                        <legend></legend>
 
+                        <div style="display: flex; flex-direction: column;">
                         <label for="River">River</label>
-                        <input type="radio" name="theme" id="River" checked>
+                        <input type="radio" name="theme" id="River" checked style="margin-top: 10px">
+                        </div>
 
+                        <div style="display: flex; flex-direction: column;">
                         <label for="Aurora">Aurora</label>
-                        <input type="radio" name="theme" id="Aurora">
+                        <input type="radio" name="theme" id="Aurora" style="margin-top: 10px">
+                        </div>
 
+                        <div style="display: flex; flex-direction: column;">
                         <label for="Moon">Moon</label>
-                        <input type="radio" name="theme" id="Moon">
+                        <input type="radio" name="theme" id="Moon" style="margin-top: 10px">
+                        </div>
                         
                     </fieldset>
                 </form>
