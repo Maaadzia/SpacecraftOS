@@ -144,8 +144,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 12. Moon background - NASA - https://www.nasa.gov/artemis-ii-mobile-wallpapers/
 
 **Youtube videos and other tutorials**
-1. https://www.youtube.com/watch?v=KD1Yo8a_Qis
-2. https://www.youtube.com/watch?v=WbnCll6vvw4
+1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
+2. https://www.youtube.com/watch?v=WbnCll6vvw4 - span
+3. https://www.youtube.com/watch?v=fyuao3G-2qg&list=LL&index=1&t=796s - themes
 
 **Information Sources**
 1. https://www.planetary.org/space-missions/voyager
