@@ -20,6 +20,7 @@ dragElement(document.getElementById("PlaylistApp"));
 dragElement(document.getElementById("Settings"));
 dragElement(document.getElementById("PhotosApp"));
 dragElement(document.getElementById("VoyagerApp"));
+dragElement(document.getElementById("OpportunityApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -200,6 +201,14 @@ var VoyagerAppScreenClose = document.querySelector("#VoyagerAppclose")
 
 VoyagerAppScreenClose.addEventListener("click", () => closeWindow(VoyagerAppScreen));
 
+//CLOSE OPPORTUNITYAPP  
+
+var OpportunityAppScreen = document.querySelector("#OpportunityApp")
+
+var OpportunityAppScreenClose = document.querySelector("#OpportunityAppclose")
+
+OpportunityAppScreenClose.addEventListener("click", () => closeWindow(OpportunityAppScreen));
+
 
 
 //RISING ON TOP
@@ -220,6 +229,7 @@ addWindowTapHandling(ArtemisAppScreen)
 addWindowTapHandling(PlaylistAppScreen)
 addWindowTapHandling(PhotosAppScreen)
 addWindowTapHandling(VoyagerAppScreen)
+addWindowTapHandling(OpportunityAppScreen)
 
 
 function handleWindowTap(element) {
@@ -314,6 +324,7 @@ initializeIcon("ArtemisApp")
 initializeIcon("PlaylistApp")
 initializeIcon("PhotosApp")
 initializeIcon("VoyagerApp")
+initializeIcon("OpportunityApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -330,5 +341,6 @@ initializeWindow("ArtemisApp")
 initializeWindow("PlaylistApp")
 initializeWindow("PhotosApp")
 initializeWindow("VoyagerApp")
+initializeWindow("OpportunityApp")
 
 
