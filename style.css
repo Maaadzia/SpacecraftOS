@@ -330,12 +330,16 @@ a {
     --radio-color: #abc6e4
 }
 
+.color-picker input[type="radio"]#Sunset {
+    --radio-color: #e4abc2;
+}
+
 .Aurora,
 :root:has(#Aurora:checked) {
     --window-color: #d3ffbcda;
     --text-color: #397b18;
     --link-color: #40a70d;
-    --switch-color: #353c47;
+    --switch-color: #40a70d;
     --background-image: url(./background3.png);
 }
 
@@ -345,6 +349,15 @@ a {
     --window-color: #cde4fd;
     --text-color: #15162d;
     --link-color: #4e514c;
-    --switch-color: #353c47;
+    --switch-color: #4e514c;
     --background-image: url(./background1.jpg);
+}
+
+.Sunset,
+:root:has(#Sunset:checked) {
+    --window-color: #f3c7d9;
+    --text-color: #fff9e6;
+    --link-color: #d6f7f7;
+    --switch-color: #d6f7f7;
+    --background-image: url(./background4.png);
 }
