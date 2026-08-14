@@ -142,6 +142,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 10. HST App 6th rating photo (Egg Nebula) - NASA, ESA, Bruce Balick (UWashington) - https://science.nasa.gov/image-detail/amf-eeb82bd3-22dd-4764-9e4c-b27f645cd083/
 11. Aurora background - NASA - https://www.nasa.gov/international-space-station/desktop-and-mobile-wallpapers/
 12. Moon background - NASA - https://www.nasa.gov/artemis-ii-mobile-wallpapers/
+13. Sunset background - NASA - https://www.nasa.gov/international-space-station/desktop-and-mobile-wallpapers/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
