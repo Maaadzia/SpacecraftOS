@@ -145,6 +145,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 13. Sunset background - NASA - https://www.nasa.gov/international-space-station/desktop-and-mobile-wallpapers/
 14. Opportunity Rover (app icon and animation) - NASA/JPL/Cornell University, Maas Digital LLC - http://photojournal.jpl.nasa.gov/catalog/PIA04413
 15. Mars (animation) - https://science.nasa.gov/mission/mer-opportunity/
+16. Voyager border img - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/08/04/nasa-engineers-help-prolong-voyager-2s-science-mission/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
