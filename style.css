@@ -107,7 +107,8 @@ a {
     width: 850px;
     height: 300px;
     overflow-y: scroll;
-    color: var(--text-color)
+    color: var(--text-color);
+    position: relative
 }
 
 .insideAppWindow-noscroll {
@@ -363,145 +364,143 @@ a {
 }
 
 .roverAnimation {
-    animation: OpportunityAnimation 25s infinite linear
+    animation: OpportunityAnimation 35s infinite linear
 }
 
 @keyframes OpportunityAnimation {
     0% {
-        top: 137px; 
-        left: 740px;
+        top: -9%; 
+        left: 37%;
         transform: rotate(-0deg);
     }
 
     5% {
-        top: 149px;
-        left: 712px;
+        top: -4%;
+        left: 24%;
         transform: rotate(-18deg);
     }
 
     10% {
-        top: 164px;
-        left: 684px;
+        top: 3%;
+        left: 12%;
         transform: rotate(-36deg);
     }
 
     15% {
-        top: 181px;
-        left: 664px;
+        top: 12%;
+        left: 1%;
         transform: rotate(-54deg);
     }
 
     20% {
-        top: 203px;
-        left: 652px;
+        top: 22%;
+        left: -4%;
         transform: rotate(-72deg);
     }
 
     25% {
-        top: 220px;
-        left: 650px;
+        top: 40%;
+        left: -7%;
         transform: rotate(-90deg);
     }
 
     30% {
-        top: 257px;
-        left: 650px;
+        top: 55%;
+        left: -3%;
         transform: rotate(-108deg);
     }
 
     35% {
-        top: 287px;
-        left: 662px;
+        top: 65%;
+        left: 4%;
         transform: rotate(-126deg);
     }
 
     40% {
-        top: 308px;
-        left: 680px;
+        top: 74%;
+        left: 14%;
         transform: rotate(-144deg);
     }
 
     45% {
-        top: 323px;
-        left: 708px;
+        top: 81%;
+        left: 23%;
         transform: rotate(-162deg);
     }
 
-    48% {
-        top: 325px;
-        left: 730px;
+    /*48% {
+        top: 0%;
+        left: 0%;
         transform: rotate(-172deg);
-    }
+    }*/
 
     50% {
-        top: 325px;
-        left: 740px;
+        top: 83%;
+        left: 37%;
         transform: rotate(-180deg);
     }
-
-    52% {
-        top: 325px;
-        left: 750px;
+    /*52% {
+        top: 0%;
+        left: 0%;
         transform: rotate(-188deg);
-    }
-
+    }*/
     55% {
-        top: 323px;
-        left: 763px;
+        top: 81%;
+        left: 52%;
         transform: rotate(-198deg);
     }
 
     60% {
-        top: 308px;
-        left: 789px;
+        top: 74%;
+        left: 63%;
         transform: rotate(-216deg);
     }
 
     65% {
-        top: 287px;
-        left: 807px;
+        top: 65%;
+        left: 72%;
         transform: rotate(-234deg);
     }
 
     70% {
-        top: 257px;
-        left: 825px;
+        top: 54%;
+        left: 79%;
         transform: rotate(-252deg);
     }
 
     75% {
-        top: 225px;
-        left: 825px;
+        top: 40%;
+        left: 83%;
         transform: rotate(-270deg);
     }
 
     80% {
-        top: 203px;
-        left: 817px;
-        transform: rotate(-288deg);
+        top: 30%;
+        left: 81%;
+        transform: rotate(-280deg);
     }
 
     85% {
-        top: 181px;
-        left: 804px;
-        transform: rotate(-306deg);
+        top: 15%;
+        left: 75%;
+        transform: rotate(-304deg);
     }
 
     90% {
-        top: 164px;
-        left: 786px;
+        top: 3%;
+        left: 63%;
         transform: rotate(-324deg);
     }
 
     95% {
-        top: 152px;
-        left: 763px;
+        top: -3%;
+        left: 54%;
         transform: rotate(-342deg);
     }
 
     100% {
-        top: 137px;
-        left: 740px;
+        top: -9%;
+        left: 37%;
         transform: rotate(-360deg);
     }
 }
