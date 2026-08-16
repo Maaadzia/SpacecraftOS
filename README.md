@@ -119,18 +119,18 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 ## Ship 3 Credits
 
 **Photos**
-1. Golden Record images - https://science.nasa.gov/gallery/images-on-the-golden-record/
-1.1. Astronaut in space - NASA
-1.2. Page of book (Newton, System of the World) - National Astronomy and Ionosphere Center, Cornell University (NAIC)
-1.3. Mercury - NASA
-1.4. Titan Centaur launch - NASA
-1.5. X-ray of hand - National Astronomy and Ionosphere Center, Cornell University (NAIC)
-1.6. Earth - NASA
-1.7. Modern highway - National Astronomy and Ionosphere Center, Cornell University (NAIC)
-1.8. Sprinters (Valeri Borzov of the U.S.S.R. in lead) - History of the Olympics, Picturepoint, London
-1.9. Mars - NASA
-1.10. Radio telescope (Arecibo) - National Astronomy and Ionosphere Center, Cornell University (NAIC)
-1.11. Airplane in flight - Frank Drake
+1. Golden Record images - https://science.nasa.gov/gallery/images-on-the-golden-record/ <br>
+1.1. Astronaut in space - NASA <br>
+1.2. Page of book (Newton, System of the World) - National Astronomy and Ionosphere Center, Cornell University (NAIC) <br>
+1.3. Mercury - NASA <br>
+1.4. Titan Centaur launch - NASA <br>
+1.5. X-ray of hand - National Astronomy and Ionosphere Center, Cornell University (NAIC) <br>
+1.6. Earth - NASA <br>
+1.7. Modern highway - National Astronomy and Ionosphere Center, Cornell University (NAIC) <br>
+1.8. Sprinters (Valeri Borzov of the U.S.S.R. in lead) - History of the Olympics, Picturepoint, London <br>
+1.9. Mars - NASA <br>
+1.10. Radio telescope (Arecibo) - National Astronomy and Ionosphere Center, Cornell University (NAIC) <br>
+1.11. Airplane in flight - Frank Drake <br>
 2. Voyager Photos App icon background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 3. Voyager App Icon - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/04/17/nasa-shuts-off-instrument-on-voyager-1-to-keep-spacecraft-operating/
 4. Voyager Instruments - NASA/JPL-Caltech - https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/
