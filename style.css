@@ -504,3 +504,11 @@ a {
         transform: rotate(-360deg);
     }
 }
+
+.statistic {
+    transition: 500ms;
+}
+
+.statistic:hover {
+    transform: scale(1.3);
+}

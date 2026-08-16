@@ -146,6 +146,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 14. Opportunity Rover (app icon and animation) - NASA/JPL/Cornell University, Maas Digital LLC - http://photojournal.jpl.nasa.gov/catalog/PIA04413
 15. Mars (animation) - https://science.nasa.gov/mission/mer-opportunity/
 16. Voyager border img - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/08/04/nasa-engineers-help-prolong-voyager-2s-science-mission/
+17. Delta II rocket photo - NASA/JPL-Caltech - https://science.nasa.gov/resource/opportunity-rover-delta-ii-launch/
+18. Rovers Statistics - NASA/JPL-Caltech - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
@@ -159,6 +161,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 4. https://science.nasa.gov/saturn/moons/titan/exploration/
 5. https://www.quora.com/Why-did-Voyager-1-only-visit-2-planets
 
+**Other**
+1. I used this background remover - https://www.remove.bg/
+
 ## 
 
-Build for NASA stardance challange with the webOS mission
+Build for NASA stardance Hackclub challange with the webOS mission
