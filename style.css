@@ -131,6 +131,7 @@ a {
     text-align: center; 
     padding: 16px; 
     cursor: pointer;
+    transition: 100ms;
 }
 
 .AppsIcon:hover {
@@ -357,7 +358,7 @@ a {
 .Sunset,
 :root:has(#Sunset:checked) {
     --window-color: #f3c7d9;
-    --text-color: #fff9e6;
+    --text-color: #fffdf8;
     --link-color: #d6f7f7;
     --switch-color: #d6f7f7;
     --background-image: url(./images/background4.png);
