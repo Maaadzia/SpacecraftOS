@@ -3,7 +3,7 @@
     --text-color: #000000;
     --link-color: #090d74;
     --switch-color: #353c47;
-    --background-image: url(./background2.png);
+    --background-image: url(./images/background2.png);
 }
 
 .darkmode {
@@ -341,7 +341,7 @@ a {
     --text-color: #397b18;
     --link-color: #40a70d;
     --switch-color: #40a70d;
-    --background-image: url(./background3.png);
+    --background-image: url(./images/background3.png);
 }
 
 
@@ -351,7 +351,7 @@ a {
     --text-color: #15162d;
     --link-color: #4e514c;
     --switch-color: #4e514c;
-    --background-image: url(./background1.jpg);
+    --background-image: url(./images/background1.jpg);
 }
 
 .Sunset,
@@ -360,7 +360,7 @@ a {
     --text-color: #fff9e6;
     --link-color: #d6f7f7;
     --switch-color: #d6f7f7;
-    --background-image: url(./background4.png);
+    --background-image: url(./images/background4.png);
 }
 
 .roverAnimation {
