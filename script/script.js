@@ -302,10 +302,15 @@ function deselectIcon(element) {
   selectedIcon = undefined
 }
 
+function windowAnimation(window) {
+  window.classList.add("tabSwitching")
+}
+
 function handleIconTap(element, window) {
   if (element.classList.contains("selected")) {
     deselectIcon(element)
     openWindow(window)
+    windowAnimation(window)
   } else {
     selectIcon(element)
   }

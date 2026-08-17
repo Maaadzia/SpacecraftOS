@@ -514,3 +514,20 @@ a {
 .statistic:hover {
     transform: scale(1.3);
 }
+
+.tabSwitching {
+    animation: appAnimation linear 1 500ms
+}
+
+@keyframes appAnimation {
+    0% {
+        top: 70%;
+        left: 20%;
+        scale: 0.01;
+    }
+
+    100% {
+        top: 50%;
+        scale: 1;
+    }
+}
