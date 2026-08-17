@@ -230,6 +230,7 @@ a {
 
 .AdditionalAppsIcon {
     cursor: pointer;
+    transition: 100ms;
 }
 
 .AdditionalAppsIcon:hover {
