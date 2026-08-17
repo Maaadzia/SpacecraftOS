@@ -148,6 +148,11 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 16. Voyager border img - NASA/JPL-Caltech - https://science.nasa.gov/blogs/voyager/2026/08/04/nasa-engineers-help-prolong-voyager-2s-science-mission/
 17. Delta II rocket photo - NASA/JPL-Caltech - https://science.nasa.gov/resource/opportunity-rover-delta-ii-launch/
 18. Rovers Statistics - NASA/JPL-Caltech - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/
+19. Rovers Discoveries Photo 1 - NASA/JPL-Caltech/Cornell Univ./Arizona State Univ. - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+20. Rovers Discoveries Photo 2 - NASA/JPL-Caltech/MSSS/NMMNHS - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+21. Rovers Discoveries Photo 3 - NASA/JPL-Caltech/Cornell/Arizona State University - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+22. Rovers Discoveries Photo 4 - NASA/JPL-Caltech/Cornell University - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+23. Rovers Discoveries Photo 5 - NASA/JPL/Cornell. - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
@@ -160,6 +165,12 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 3. https://science.nasa.gov/mission/voyager/
 4. https://science.nasa.gov/saturn/moons/titan/exploration/
 5. https://www.quora.com/Why-did-Voyager-1-only-visit-2-planets
+6. https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+7. https://science.nasa.gov/mission/mer-opportunity/
+8. https://science.nasa.gov/mission/mer-spirit/
+9. https://en.wikipedia.org/wiki/Opportunity_(rover)
+10. https://en.wikipedia.org/wiki/Spirit_(rover)
+11. https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/
 
 **Other**
 1. I used this background remover - https://www.remove.bg/
