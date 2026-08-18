@@ -531,3 +531,26 @@ a {
         scale: 1;
     }
 }
+
+
+#gameContainer {
+    text-align: center
+}
+
+#gameBoard {
+    border: 3px solid
+}
+
+#scoreText {
+    font-size: 20px;
+}
+
+#resetBtn {
+    width: 70px;
+    height: 30px;
+    font-family:'Finlandica Text', sans-serif;
+    font-size: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
