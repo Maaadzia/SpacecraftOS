@@ -21,6 +21,7 @@ dragElement(document.getElementById("Settings"));
 dragElement(document.getElementById("PhotosApp"));
 dragElement(document.getElementById("VoyagerApp"));
 dragElement(document.getElementById("OpportunityApp"));
+dragElement(document.getElementById("SnakeApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -209,6 +210,14 @@ var OpportunityAppScreenClose = document.querySelector("#OpportunityAppclose")
 
 OpportunityAppScreenClose.addEventListener("click", () => closeWindow(OpportunityAppScreen));
 
+//CLOSE OPPORTUNITYAPP  
+
+var SnakeAppScreen = document.querySelector("#SnakeApp")
+
+var SnakeAppScreenClose = document.querySelector("#SnakeAppclose")
+
+SnakeAppScreenClose.addEventListener("click", () => closeWindow(SnakeAppScreen));
+
 
 
 //RISING ON TOP
@@ -230,6 +239,7 @@ addWindowTapHandling(PlaylistAppScreen)
 addWindowTapHandling(PhotosAppScreen)
 addWindowTapHandling(VoyagerAppScreen)
 addWindowTapHandling(OpportunityAppScreen)
+addWindowTapHandling(SnakeAppScreen)
 
 
 function handleWindowTap(element) {
@@ -330,6 +340,7 @@ initializeIcon("PlaylistApp")
 initializeIcon("PhotosApp")
 initializeIcon("VoyagerApp")
 initializeIcon("OpportunityApp")
+initializeIcon("SnakeApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -347,5 +358,6 @@ initializeWindow("PlaylistApp")
 initializeWindow("PhotosApp")
 initializeWindow("VoyagerApp")
 initializeWindow("OpportunityApp")
+initializeWindow("SnakeApp")
 
 
