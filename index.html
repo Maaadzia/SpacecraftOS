@@ -1287,12 +1287,15 @@
 
 
         
-        <div class="insideAppWindow" style="height: 400px;">
+        <div class="insideAppWindow-noscroll" style="height: 400px;">
 
                 <div id="gameContainer">
                     <canvas id="gameBoard" width="780px" height="320px"></canvas>
-                    <div id="scoreText">0</div>
-                    <button id="resetBtn">Reset</button>
+                    <div style="display: flex; flex-direction: row; justify-content: space-around; width: 800px; margin-top: 15px;">
+                        <button id="resetBtn">Reset</button>
+                        <p style="font-size: 20px; margin-top: 10px;"><strong>Score:</strong></p>
+                        <div id="scoreText">0</div>
+                    </div>
                 </div>
 
         </div>

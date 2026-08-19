@@ -4,6 +4,7 @@
     --link-color: #090d74;
     --switch-color: #353c47;
     --background-image: url(./images/background2.png);
+    --button-background: #242930;
 }
 
 .darkmode {
@@ -543,14 +544,25 @@ a {
 
 #scoreText {
     font-size: 20px;
+    margin-top: 10px;
 }
 
 #resetBtn {
-    width: 70px;
-    height: 30px;
+    appearance: none;
+    border: 2px solid var(--switch-color);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    height: fit-content;
+    background-color: var(--button-background);
+    color: var(--switch-color);
     font-family:'Finlandica Text', sans-serif;
     font-size: 15px;
-    border: 2px solid;
-    border-radius: 5px;
     cursor: pointer;
+    transition: 200ms;
+    margin-right: 100px;
+}
+
+#resetBtn:hover {
+    scale: 1.2
 }
