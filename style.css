@@ -560,3 +560,7 @@ a {
     grid-template: repeat(15, 1fr) / repeat(15, 1fr);
     background:#15162d;
 }
+
+.playBoard .food {
+    background: var(--link-color);
+}
