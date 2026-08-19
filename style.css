@@ -562,5 +562,9 @@ a {
 }
 
 .playBoard .food {
+    background: pink;
+}
+
+.playBoard .head {
     background: var(--link-color);
 }
