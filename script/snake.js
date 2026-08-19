@@ -1,12 +1,12 @@
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
-const storeText = document.querySelector("#scoreText");
+const scoreText = document.querySelector("#scoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
-const boardBackground = "var(--switch-color)";
-const snakeColor = "var(--window-color)";
-const snakeBorder = "var(--text-color)";
+const boardBackground = "white";
+const snakeColor = "pink";
+const snakeBorder = "black";
 const foodColor = "purple";
 const unitSize = 20;
 let running = false;
@@ -27,12 +27,33 @@ window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
 
 gameStart();
-createFood();
-drawFood();
 
-function gameStart(){};
-function nextTick(){};
-function clearBoard(){};
+function gameStart(){
+    running = true; 
+    scoreText.textContent = score;
+    createFood();
+    drawFood();
+    nextTick();
+};
+function nextTick(){
+    if(running){
+        setTimeout(() => {
+            clearBoard();
+            drawFood();
+            moveSnake();
+            drawSnake();
+            checkGameOver();
+            nextTick();
+        }, 125)
+    }
+    else {
+        displayGameOver();
+    }
+};
+function clearBoard(){
+    ctx.fillStyle = boardBackground;
+    ctx.fillRect(0, 0, gameWidth, gameHeight)
+};
 function createFood(){
     function randomFood (min, max){
         const randNum = Math.round((Math.random() * (max - min) + min) / unitSize) * unitSize;
@@ -46,7 +67,14 @@ function drawFood(){
     ctx.fillRect(foodX, foodY, unitSize, unitSize);
 };
 function moveSnake(){};
-function drawSnake(){};
+function drawSnake(){
+    ctx.fillStyle = snakeColor;
+    ctx.strokeStyle = snakeBorder; //jak nie chcesz border to usun ta linijke
+    snake.forEach(snakePart => {
+        ctx.fillRect(snakePart.x, snakePart.y, unitSize, unitSize);
+        ctx.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize);
+    })
+};
 function changeDirection(){};
 function checkGameOver(){};
 function displayGameOver(){};
