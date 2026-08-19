@@ -539,7 +539,8 @@ a {
 }
 
 #gameBoard {
-    border: 3px solid
+    border: 3px solid var(--button-background);
+    border-radius: 5px;
 }
 
 #scoreText {
@@ -555,7 +556,7 @@ a {
     width: 100px;
     height: fit-content;
     background-color: var(--button-background);
-    color: var(--switch-color);
+    color: var(--text-color);
     font-family:'Finlandica Text', sans-serif;
     font-size: 15px;
     cursor: pointer;
@@ -565,4 +566,8 @@ a {
 
 #resetBtn:hover {
     scale: 1.2
+}
+
+.snake-background {
+    background-color: var(--switch-color);
 }
