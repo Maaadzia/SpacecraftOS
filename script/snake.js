@@ -21,7 +21,7 @@ let snake = [
     {x:unitSize * 2, y:0},
     {x:unitSize, y:0},
     {x:0, y:0}
-]
+];
 
 window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
@@ -29,7 +29,7 @@ resetBtn.addEventListener("click", resetGame);
 gameStart();
 
 function gameStart(){
-    running = true; 
+    running= true; 
     scoreText.textContent = score;
     createFood();
     drawFood();
@@ -37,7 +37,7 @@ function gameStart(){
 };
 function nextTick(){
     if(running){
-        setTimeout(() => {
+        setTimeout(()=>{
             clearBoard();
             drawFood();
             moveSnake();
@@ -46,16 +46,16 @@ function nextTick(){
             nextTick();
         }, 125)
     }
-    else {
+    else{
         displayGameOver();
     }
 };
 function clearBoard(){
     ctx.fillStyle = boardBackground;
-    ctx.fillRect(0, 0, gameWidth, gameHeight)
+    ctx.fillRect(0, 0, gameWidth, gameHeight);
 };
 function createFood(){
-    function randomFood (min, max){
+    function randomFood(min, max){
         const randNum = Math.round((Math.random() * (max - min) + min) / unitSize) * unitSize;
         return randNum;
     }
@@ -132,11 +132,11 @@ function checkGameOver(){
         case (snake[0].y < 0):
             running = false;
             break;
-        case (snake[0].y >= gameWidth):
+        case (snake[0].y >= gameHeight):
             running = false;
             break;
     }
-    for(let i = 1; i < snake.length; i +=1){
+    for(let i = 1; i < snake.length; i+=1){
         if(snake[i].x == snake[0].x && snake[i].y == snake[0].y){
             running = false;
         }
@@ -152,13 +152,13 @@ function displayGameOver(){
 function resetGame(){
     score = 0;
     xVelocity = unitSize;
-    xVelocity = 0;
+    yVelocity = 0;
     snake = [
         {x:unitSize * 4, y:0},
         {x:unitSize * 3, y:0},
         {x:unitSize * 2, y:0},
         {x:unitSize, y:0},
         {x:0, y:0}
-]; 
+    ]; 
     gameStart();
 };
