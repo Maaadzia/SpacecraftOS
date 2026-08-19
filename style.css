@@ -533,38 +533,3 @@ a {
 }
 
 
-.wrapper {
-    margin-top: 22px;
-    margin-left: 160px;
-    margin-bottom: 22px;
-    width: 500px;
-    height: 320px;
-    background-color: var(--switch-color);
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.gameDetails {
-    color: var(--window-color);
-    font-size: 15px;
-    display: flex;
-    justify-content: space-between;
-    padding: 15px;
-}
-
-.playBoard {
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template: repeat(15, 1fr) / repeat(15, 1fr);
-    background:#15162d;
-}
-
-.playBoard .food {
-    background: pink;
-}
-
-.playBoard .head {
-    background: var(--link-color);
-}
