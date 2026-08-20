@@ -5,6 +5,8 @@
     --switch-color: #353c47;
     --background-image: url(./images/background2.png);
     --button-background: #242930;
+    --ratings-star: url(./images/stars/star.png);
+    --ratings-starShine: url(./images/stars/starShine.png);
 }
 
 .darkmode {
@@ -12,6 +14,8 @@
     --text-color: rgb(250, 242, 229);
     --link-color: rgb(255, 251, 245);
     --switch-color: rgb(250, 242, 229);
+    --ratings-star: url(./images/stars/starDarkMode.png);
+    --ratings-starShine: url(./images/stars/starShineDarkMode.png);
 }
 
 #theme-switch {
@@ -341,10 +345,12 @@ a {
 .Aurora,
 :root:has(#Aurora:checked) {
     --window-color: #d3ffbcda;
-    --text-color: #397b18;
+    --text-color: #374e2c;
     --link-color: #40a70d;
     --switch-color: #40a70d;
     --background-image: url(./images/background3.png);
+    --ratings-star: url(./images/stars/starAurora.png);
+    --ratings-starShine: url(./images/stars/starShineAurora.png);
 }
 
 
@@ -352,9 +358,11 @@ a {
 :root:has(#Moon:checked) {
     --window-color: #cde4fd;
     --text-color: #15162d;
-    --link-color: #4e514c;
-    --switch-color: #4e514c;
+    --link-color: #545454;
+    --switch-color: #515251;
     --background-image: url(./images/background1.jpg);
+    --ratings-star: url(./images/stars/starMoon.png);
+    --ratings-starShine: url(./images/stars/starShineMoon.png);
 }
 
 .Sunset,
@@ -364,6 +372,8 @@ a {
     --link-color: #d6f7f7;
     --switch-color: #d6f7f7;
     --background-image: url(./images/background4.png);
+    --ratings-star: url(./images/stars/starrSunset.png);
+    --ratings-starShine: url(./images/stars/starShineSunset.png);
 }
 
 .roverAnimation {
@@ -575,4 +585,26 @@ a {
 
 .snake-background {
     background-color: var(--switch-color);
+}
+
+.photosRatings input[type="radio"] {
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background-image: var(--ratings-star);
+    background-size: cover;
+    border-radius: 5px;
+    transition: 250ms;
+    margin-right: 15px;
+    cursor: pointer
+}
+
+.photosRatings input[type="radio"]:checked {
+    background-image: var(--ratings-starShine);
+    scale: 1.5;
+    transform: rotate(360deg);
+}
+
+.labelText {
+    margin-bottom: 100px;
 }
