@@ -1,3 +1,7 @@
+const fuel = new Image();
+fuel.src = '/images/stars/star.png';
+const space = new Image();
+space.src = '/images/snakeBackgroundSpace.png';
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
@@ -56,7 +60,7 @@ function nextTick(){
 };
 function clearBoard(){
     ctx.fillStyle = boardBackground;
-    ctx.fillRect(0, 0, gameWidth, gameHeight);
+    ctx.drawImage(space, 0, 0, gameWidth, gameHeight);
 };
 function createFood(){
     function randomFood(min, max){
@@ -68,7 +72,7 @@ function createFood(){
 };
 function drawFood(){
     ctx.fillStyle = foodColor;
-    ctx.fillRect(foodX, foodY, unitSize, unitSize);
+    ctx.drawImage(fuel, foodX, foodY, unitSize, unitSize);
 };
 function moveSnake(){
     const head = {x: snake[0].x + xVelocity,
