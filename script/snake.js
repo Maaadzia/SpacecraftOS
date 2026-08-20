@@ -30,6 +30,8 @@ let snake = [
 
 let highScore = localStorage.getItem("highScoreText") || 0;
 
+var timeout = setTimeout;
+
 window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
 
@@ -45,7 +47,7 @@ function gameStart(){
 };
 function nextTick(){
     if(running){
-        setTimeout(()=>{
+        timeout = setTimeout(()=>{
             clearBoard();
             drawFood();
             moveSnake();
@@ -170,5 +172,6 @@ function resetGame(){
         {x:unitSize, y:0},
         {x:0, y:0}
     ]; 
+    clearTimeout(timeout);
     gameStart();
 };
