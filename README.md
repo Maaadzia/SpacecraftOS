@@ -153,12 +153,14 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 21. Rovers Discoveries Photo 3 - NASA/JPL-Caltech/Cornell/Arizona State University - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 22. Rovers Discoveries Photo 4 - NASA/JPL-Caltech/Cornell University - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 23. Rovers Discoveries Photo 5 - NASA/JPL/Cornell. - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
+24. Photos ratings stars - https://fonts.google.com/icons
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
 2. https://www.youtube.com/watch?v=WbnCll6vvw4 - span
 3. https://www.youtube.com/watch?v=fyuao3G-2qg&list=LL&index=1&t=796s - themes
 4. https://www.youtube.com/watch?v=Je0B3nHhKmM&t=299s - Snake Game
+5. https://www.youtube.com/watch?v=K8Rh5x3c9Pw&t=1237s - Snake Game (high score)
 
 **Information Sources**
 1. https://www.planetary.org/space-missions/voyager
