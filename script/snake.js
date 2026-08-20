@@ -5,7 +5,7 @@ const highScoreText = document.querySelector("#highScoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
-const boardBackground = ".snake-background";
+const boardBackground = "white";
 const snakeColor = "pink";
 const snakeBorder = "black";
 const foodColor = "purple";
@@ -24,7 +24,7 @@ let snake = [
     {x:0, y:0}
 ];
 
-let highScore = localStorage.getItem("#highScoreText") || 0;
+let highScore = localStorage.getItem("highScoreText") || 0;
 
 window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
@@ -152,7 +152,7 @@ function displayGameOver(){
     ctx.font = "25px 'Finlandica Text', sans-serif";
     ctx.fillStyle = "black";
     ctx.textAlign = "center";
-    ctx.fillText("Game Over", gameWidth / 2, gameHeight / 2);
+    ctx.fillText("Game Over!! Try again by clicking reset button", gameWidth / 2, gameHeight / 2);
     running = false;
 };
 function resetGame(){
