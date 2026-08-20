@@ -1,6 +1,7 @@
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
+const highScoreText = document.querySelector("#highScoreText");
 const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
@@ -23,6 +24,8 @@ let snake = [
     {x:0, y:0}
 ];
 
+let highScore = localStorage.getItem("#highScoreText") || 0;
+
 window.addEventListener("keydown", changeDirection);
 resetBtn.addEventListener("click", resetGame);
 
@@ -31,6 +34,7 @@ gameStart();
 function gameStart(){
     running= true; 
     scoreText.textContent = score;
+    highScoreText.textContent = highScore;
     createFood();
     drawFood();
     nextTick();
@@ -75,6 +79,8 @@ function moveSnake(){
     if(snake[0].x == foodX && snake[0].y == foodY){
         score+=1;
         scoreText.textContent = score;
+        highScore = score >= highScore ? score : highScore;
+        localStorage.setItem("highScoreText", highScore);
         createFood();
     }
     else{

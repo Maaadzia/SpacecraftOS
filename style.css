@@ -548,6 +548,11 @@ a {
     margin-top: 10px;
 }
 
+#highScoreText {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
 #resetBtn {
     appearance: none;
     border: 2px solid var(--switch-color);
