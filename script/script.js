@@ -218,6 +218,14 @@ var SnakeAppScreenClose = document.querySelector("#SnakeAppclose")
 
 SnakeAppScreenClose.addEventListener("click", () => closeWindow(SnakeAppScreen));
 
+//CLOSE SNAKETUTORIAL  
+
+var snakeTutorialScreen = document.querySelector("#snakeTutorial")
+
+var snakeTutorialScreenClose = document.querySelector("#resetBtn")
+
+snakeTutorialScreenClose.addEventListener("click", () => closeWindow(snakeTutorialScreen));
+
 
 
 //RISING ON TOP
