@@ -4,7 +4,7 @@
     --link-color: #090d74;
     --switch-color: #353c47;
     --background-image: url(./images/background2.png);
-    --button-background: #242930;
+    --button-background: rgb(224, 216, 202);
     --ratings-star: url(./images/stars/star.png);
     --ratings-starShine: url(./images/stars/starShine.png);
 }
@@ -14,6 +14,7 @@
     --text-color: rgb(250, 242, 229);
     --link-color: rgb(255, 251, 245);
     --switch-color: rgb(250, 242, 229);
+    --button-background: #242930;
     --ratings-star: url(./images/stars/starDarkMode.png);
     --ratings-starShine: url(./images/stars/starShineDarkMode.png);
 }
@@ -348,6 +349,7 @@ a {
     --text-color: #374e2c;
     --link-color: #40a70d;
     --switch-color: #40a70d;
+    --button-background: #b9fa96da;
     --background-image: url(./images/background3.png);
     --ratings-star: url(./images/stars/starAurora.png);
     --ratings-starShine: url(./images/stars/starShineAurora.png);
@@ -360,6 +362,7 @@ a {
     --text-color: #15162d;
     --link-color: #545454;
     --switch-color: #515251;
+    --button-background: #77a5d5;
     --background-image: url(./images/background1.jpg);
     --ratings-star: url(./images/stars/starMoon.png);
     --ratings-starShine: url(./images/stars/starShineMoon.png);
@@ -371,6 +374,7 @@ a {
     --text-color: #fffdf8;
     --link-color: #d6f7f7;
     --switch-color: #d6f7f7;
+    --button-background: #bbeeee;
     --background-image: url(./images/background4.png);
     --ratings-star: url(./images/stars/starrSunset.png);
     --ratings-starShine: url(./images/stars/starShineSunset.png);
