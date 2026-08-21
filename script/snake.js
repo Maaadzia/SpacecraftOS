@@ -12,8 +12,8 @@ const resetBtn = document.querySelector("#resetBtn");
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "white";
-const snakeColor = "pink";
-const snakeBorder = "black";
+const snakeColor = "hotpink";
+const snakeBorder = "pink";
 const foodColor = "purple";
 const unitSize = 20;
 let running = false;
@@ -98,7 +98,10 @@ function moveSnake(){
 function drawSnake(){
     snake.forEach((snakePart, index) => {
         if(index === 0) {
-            ctx.drawImage(rocket, snakePart.x, snakePart.y, unitSize, unitSize);
+        ctx.fillStyle = snakeColor;
+        ctx.strokeStyle = snakeBorder;
+        ctx.fillRect(snakePart.x, snakePart.y, unitSize, unitSize);
+        ctx.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize);
         }
         else {
         ctx.fillStyle = snakeColor;
@@ -163,9 +166,9 @@ function checkGameOver(){
 };
 function displayGameOver(){
     ctx.font = "25px 'Finlandica Text', sans-serif";
-    ctx.fillStyle = "black";
+    ctx.fillStyle = "white";
     ctx.textAlign = "center";
-    ctx.fillText("Game Over!! Try again by clicking reset button", gameWidth / 2, gameHeight / 2);
+    ctx.fillText("Game Over!! Try again by clicking start button", gameWidth / 2, gameHeight / 2);
     running = false;
 };
 function resetGame(){
