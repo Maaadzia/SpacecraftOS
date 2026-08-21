@@ -2,6 +2,8 @@ const fuel = new Image();
 fuel.src = '/images/stars/star.png';
 const space = new Image();
 space.src = '/images/snakeBackgroundSpace.png';
+const rocket = new Image();
+rocket.src = '/images/rocketsnake.png';
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
@@ -29,6 +31,8 @@ let snake = [
 ];
 
 let highScore = localStorage.getItem("highScoreText") || 0;
+
+let angle = 0;
 
 var timeout = setTimeout;
 
@@ -94,11 +98,26 @@ function moveSnake(){
     }
 };
 function drawSnake(){
-    ctx.fillStyle = snakeColor;
-    ctx.strokeStyle = snakeBorder; //jak nie chcesz border to usun ta linijke
-    snake.forEach(snakePart => {
+    snake.forEach((snakePart, index) => {
+        if(index === 0) {
+            ctx.save();
+            const centerX = snakePart.x + unitSize / 2;
+            const centerY = snakePart.y + unitSize / 2;
+            ctx.translate(centerX, centerY);
+            if(xVelocity > 0) angle = 0;
+            else if(xVelocity < 0) angle = Math.PI;
+            else if(yVelocity > 0) angle = Math.PI / 2;
+            else if(yVelocity < 0) angle = -Math.PI / 2;
+            ctx.rotate(angle);
+            ctx.drawImage(rocket, snakePart.x, snakePart.y, unitSize, unitSize);
+            ctx.restore();
+        }
+        else {
+        ctx.fillStyle = snakeColor;
+        ctx.strokeStyle = snakeBorder; //jak nie chcesz border to usun ta linijke
         ctx.fillRect(snakePart.x, snakePart.y, unitSize, unitSize);
         ctx.strokeRect(snakePart.x, snakePart.y, unitSize, unitSize);
+        };
     })
 };
 function changeDirection(event){
