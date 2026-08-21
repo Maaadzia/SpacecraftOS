@@ -1,7 +1,7 @@
 const fuel = new Image();
 fuel.src = 'images/stars/star.png';
 const space = new Image();
-space.src = 'images/snakeBackgroundSpace.png';
+space.src = 'images/AdditionalApps/Snake Game/snakeBackgroundSpace.png';
 const rocket = new Image();
 rocket.src = 'images/rocketsnake.png';
 const gameBoard = document.querySelector("#gameBoard");
