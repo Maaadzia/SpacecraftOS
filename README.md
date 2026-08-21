@@ -154,6 +154,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 22. Rovers Discoveries Photo 4 - NASA/JPL-Caltech/Cornell University - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 23. Rovers Discoveries Photo 5 - NASA/JPL/Cornell. - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 24. Photos ratings stars - https://fonts.google.com/icons
+25. Snake Game background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
