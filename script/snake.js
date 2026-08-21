@@ -32,8 +32,6 @@ let snake = [
 
 let highScore = localStorage.getItem("highScoreText") || 0;
 
-let angle = 0;
-
 var timeout = setTimeout;
 
 window.addEventListener("keydown", changeDirection);
@@ -100,17 +98,7 @@ function moveSnake(){
 function drawSnake(){
     snake.forEach((snakePart, index) => {
         if(index === 0) {
-            ctx.save();
-            const centerX = snakePart.x + unitSize / 2;
-            const centerY = snakePart.y + unitSize / 2;
-            ctx.translate(centerX, centerY);
-            if(xVelocity > 0) angle = 0;
-            else if(xVelocity < 0) angle = Math.PI;
-            else if(yVelocity > 0) angle = Math.PI / 2;
-            else if(yVelocity < 0) angle = -Math.PI / 2;
-            ctx.rotate(angle);
             ctx.drawImage(rocket, snakePart.x, snakePart.y, unitSize, unitSize);
-            ctx.restore();
         }
         else {
         ctx.fillStyle = snakeColor;
