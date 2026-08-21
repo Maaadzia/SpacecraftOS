@@ -1,9 +1,9 @@
 const fuel = new Image();
-fuel.src = '/images/stars/star.png';
+fuel.src = 'images/stars/star.png';
 const space = new Image();
-space.src = '/images/snakeBackgroundSpace.png';
+space.src = 'images/snakeBackgroundSpace.png';
 const rocket = new Image();
-rocket.src = '/images/rocketsnake.png';
+rocket.src = 'images/rocketsnake.png';
 const gameBoard = document.querySelector("#gameBoard");
 const ctx = gameBoard.getContext("2d");
 const scoreText = document.querySelector("#scoreText");
