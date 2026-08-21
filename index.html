@@ -1239,14 +1239,33 @@
         <div class="insideAppWindow-noscroll" style="height: 400px;">
 
             <div class="insideAppWindow-noscroll" style="height: 300px; width: 780px; border-radius: 1px; position: absolute; 
-            margin-left: 10px;" id="snakeTutorial">
-                tutorial
+            margin-left: 10px; border-radius: 16px;" id="snakeTutorial">
+                <h1> Snake Game Guide </h1>
+                <p>
+                    <strong>Snake likes:</strong> star cookies <br>
+                    <strong>Snake fears:</strong> walls and himself! <br>
+                    <strong>Your task:</strong> to help snake get his cookies <br>
+                    <strong>How to play:</strong> click "start" button below to start <dfn>and restart</dfn> the game <br>
+                    <strong>Note:</strong> highscore appears when restarting game and it saves if you reenter this site <br>
+                    <br>
+                    <strong>Controllers</strong> - Use the arrow keys to control the snake
+                </p>
+                
+                        <img src="/images/keyboard_arrow_left_20dp_FFF.svg" 
+                        style="background-color: var(--button-background); height: 30px; width: 30px; bottom: 3%; left: 3%; position: absolute;">
+                        <img src="/images/keyboard_arrow_down_20dp_FFF.svg" 
+                        style="background-color: var(--button-background); height: 30px; width: 30px; bottom: 3%; left: 8%; position: absolute;">
+                        <img src="/images/keyboard_arrow_right_20dp_FFF.svg" 
+                        style="background-color: var(--button-background); height: 30px; width: 30px; bottom: 3%; left: 13%; position: absolute;">
+                        <img src="/images/keyboard_control_key_20dp_FFF.svg" 
+                        style="background-color: var(--button-background); height: 30px; width: 30px; bottom: 14%; left: 8%; position: absolute;">
+                
             </div>
 
                 <div id="gameContainer">
                     <canvas id="gameBoard" width="780px" height="320px"></canvas>
                     <div style="display: flex; flex-direction: row; justify-content: space-around; width: 800px; margin-top: 15px;">
-                        <button id="resetBtn">Reset</button>
+                        <button id="resetBtn">Start</button>
                         <p style="font-size: 20px; margin-top: 10px;"><strong>Score:</strong>
                         <div id="scoreText">0</div></p>
                         <p style="font-size: 20px; margin-top: 10px;"><strong>High Score:</strong>
