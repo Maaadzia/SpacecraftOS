@@ -146,6 +146,31 @@ starlinkGuideScreenOpen.addEventListener("click", function() {
   openWindow(starlinkGuideScreen);
 });
 
+//OPEN AND CLOSE WINDOW SETTINGS
+
+var SettingsScreen = document.querySelector("#Settings")
+
+function closeWindow(element) {
+  element.style.display = "none"
+}
+
+function openWindow(element) {
+  element.style.display = "flex"
+}
+
+
+var SettingsScreenClose = document.querySelector("#Settingsclose")
+
+var SettingsScreenOpen = document.querySelector("#Settingsopen")
+
+
+SettingsScreenClose.addEventListener("click", function() {
+  closeWindow(SettingsScreen);
+});
+SettingsScreenOpen.addEventListener("click", function() {
+  openWindow(SettingsScreen);
+});
+
 
 //CLOSE JAMESWEBBAPP
 
@@ -258,6 +283,7 @@ addWindowTapHandling(VoyagerAppScreen)
 addWindowTapHandling(OpportunityAppScreen)
 addWindowTapHandling(SnakeAppScreen)
 addWindowTapHandling(MapAppScreen)
+addWindowTapHandling(SettingsScreen)
 
 
 function handleWindowTap(element) {
@@ -287,33 +313,6 @@ function handleWindowTap(element) {
   topBar.style.zIndex = biggestIndex + 1;
   deselectIcon(selectedIcon)
 }
-
-//OPEN AND CLOSE WINDOW SETTINGS
-
-var SettingsScreen = document.querySelector("#Settings")
-
-function closeWindow(element) {
-  element.style.display = "none"
-}
-
-function openWindow(element) {
-  element.style.display = "flex"
-}
-
-
-var SettingsScreenClose = document.querySelector("#Settingsclose")
-
-var SettingsScreenOpen = document.querySelector("#Settingsopen")
-
-
-SettingsScreenClose.addEventListener("click", function() {
-  closeWindow(SettingsScreen);
-});
-SettingsScreenOpen.addEventListener("click", function() {
-  openWindow(SettingsScreen);
-});
-
-
 
 
 //APPS!
