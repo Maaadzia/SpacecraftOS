@@ -22,6 +22,7 @@ dragElement(document.getElementById("PhotosApp"));
 dragElement(document.getElementById("VoyagerApp"));
 dragElement(document.getElementById("OpportunityApp"));
 dragElement(document.getElementById("SnakeApp"));
+dragElement(document.getElementById("MapApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -226,6 +227,14 @@ var snakeTutorialScreenClose = document.querySelector("#resetBtn")
 
 snakeTutorialScreenClose.addEventListener("click", () => closeWindow(snakeTutorialScreen));
 
+//CLOSE MAPAPP  
+
+var MapAppScreen = document.querySelector("#MapApp")
+
+var MapAppScreenClose = document.querySelector("#MapAppclose")
+
+MapAppScreenClose.addEventListener("click", () => closeWindow(MapAppScreen));
+
 
 
 //RISING ON TOP
@@ -248,6 +257,7 @@ addWindowTapHandling(PhotosAppScreen)
 addWindowTapHandling(VoyagerAppScreen)
 addWindowTapHandling(OpportunityAppScreen)
 addWindowTapHandling(SnakeAppScreen)
+addWindowTapHandling(MapAppScreen)
 
 
 function handleWindowTap(element) {
@@ -349,6 +359,7 @@ initializeIcon("PhotosApp")
 initializeIcon("VoyagerApp")
 initializeIcon("OpportunityApp")
 initializeIcon("SnakeApp")
+initializeIcon("MapApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -367,5 +378,5 @@ initializeWindow("PhotosApp")
 initializeWindow("VoyagerApp")
 initializeWindow("OpportunityApp")
 initializeWindow("SnakeApp")
-
+initializeWindow("MapApp")
 
