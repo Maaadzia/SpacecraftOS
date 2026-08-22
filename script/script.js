@@ -23,6 +23,7 @@ dragElement(document.getElementById("VoyagerApp"));
 dragElement(document.getElementById("OpportunityApp"));
 dragElement(document.getElementById("SnakeApp"));
 dragElement(document.getElementById("MapApp"));
+dragElement(document.getElementById("NancyGraceRomanSTApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -260,6 +261,14 @@ var MapAppScreenClose = document.querySelector("#MapAppclose")
 
 MapAppScreenClose.addEventListener("click", () => closeWindow(MapAppScreen));
 
+//CLOSE MAPAPP  
+
+var NancyGraceRomanSTAppScreen = document.querySelector("#NancyGraceRomanSTApp")
+
+var NancyGraceRomanSTAppScreenClose = document.querySelector("#NancyGraceRomanSTAppclose")
+
+NancyGraceRomanSTAppScreenClose.addEventListener("click", () => closeWindow(NancyGraceRomanSTAppScreen));
+
 
 
 //RISING ON TOP
@@ -284,6 +293,7 @@ addWindowTapHandling(OpportunityAppScreen)
 addWindowTapHandling(SnakeAppScreen)
 addWindowTapHandling(MapAppScreen)
 addWindowTapHandling(SettingsScreen)
+addWindowTapHandling(NancyGraceRomanSTApp)
 
 
 function handleWindowTap(element) {
@@ -359,6 +369,7 @@ initializeIcon("VoyagerApp")
 initializeIcon("OpportunityApp")
 initializeIcon("SnakeApp")
 initializeIcon("MapApp")
+initializeIcon("NancyGraceRomanSTApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -378,4 +389,5 @@ initializeWindow("VoyagerApp")
 initializeWindow("OpportunityApp")
 initializeWindow("SnakeApp")
 initializeWindow("MapApp")
+initializeWindow("NancyGraceRomanSTApp")
 
