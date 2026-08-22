@@ -155,6 +155,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 23. Rovers Discoveries Photo 5 - NASA/JPL/Cornell. - https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/science-highlights/
 24. Photos ratings stars - https://fonts.google.com/icons
 25. Snake Game background - NASA - https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/
+26. Map App Icon Satellite - NASA - https://science.nasa.gov/blogs/swift/2026/07/28/commissioning-update-for-spacecraft-to-boost-nasas-swift/
+27. Map App Icon localisation icon - https://fonts.google.com/icons
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
@@ -178,6 +180,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 
 **Other**
 1. I used this background remover - https://www.remove.bg/
+2. Map App NASA embeeded map - https://eyes.nasa.gov/apps/solar-system/#/home
+3. For Additional Apps Icons I used Canva and Paint 3d
 
 ## 
 
