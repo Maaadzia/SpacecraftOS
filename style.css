@@ -609,6 +609,42 @@ a {
     transform: rotate(360deg);
 }
 
+.photosAnimation {
+    animation: appear 200ms linear;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 300px;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        scale: 0.8;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.snoopyAnimation {
+    animation: snoopy 2s linear;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 100px;
+}
+
+@keyframes snoopy {
+    from {
+        opacity: 0;
+        scale: 0.5;
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 .labelText {
     margin-bottom: 100px;
 }
