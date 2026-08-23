@@ -645,6 +645,25 @@ a {
     }
 }
 
+.photosAnimationCircle {
+    animation: appearInCircle 200ms linear;
+    animation-timeline: view();
+    animation-range-start: 0px; 
+    animation-range-end: 300px;
+}
+
+@keyframes appearInCircle {
+    from {
+        border-radius: 100%;
+        opacity: 0;
+        scale: 0.8;
+    }
+    to {
+        border-radius: 5px;
+        opacity: 1;
+        scale: 1;
+    }
+}
 .labelText {
     margin-bottom: 100px;
 }
