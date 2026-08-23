@@ -648,7 +648,7 @@ a {
 .photosAnimationCircle {
     animation: appearInCircle 200ms linear;
     animation-timeline: view();
-    animation-range-start: 0px; 
+    animation-range-start: -1px; 
     animation-range-end: 300px;
 }
 
