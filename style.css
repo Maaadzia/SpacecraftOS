@@ -664,6 +664,20 @@ a {
         scale: 1;
     }
 }
+
+.photosScrollingAnimation {
+    animation: scrolling linear;
+    animation-timeline: scroll();
+    animation-range-start: 0px; 
+    animation-range-end: 100%;
+}
+
+@keyframes scrolling {
+    to {
+        transform: translate(calc(-50% - 0.5rem))
+    }
+}
+
 .labelText {
     margin-bottom: 100px;
 }
