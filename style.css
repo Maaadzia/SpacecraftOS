@@ -628,18 +628,22 @@ a {
 }
 
 .snoopyAnimation {
-    animation: snoopy 2s linear;
+    animation: snoopy linear;
     animation-timeline: view();
     animation-range-start: 0px; 
-    animation-range-end: 100px;
+    animation-range-end: 250px;
 }
 
 @keyframes snoopy {
-    from {
+    0% {
         opacity: 0;
         scale: 0.5;
     }
-    to {
+    50% {
+        opacity: 1;
+        scale: 1.5;
+    }
+    100% {
         opacity: 1;
         scale: 1;
     }
