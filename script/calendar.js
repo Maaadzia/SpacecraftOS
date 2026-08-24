@@ -61,7 +61,7 @@ function renderCalendar() {
         const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth()}-${prevDate}`;
         const hasEvent = events[dateKey] !== undefined;
 
-        days += `<div class="day other-month${hasEvent ? ' has-events' : ''}">${prevDate}></div>`;
+        days += `<div class="day other-month${hasEvent ? ' has-events' : ''}">${prevDate}</div>`;
     }
 
     //Current month days 
