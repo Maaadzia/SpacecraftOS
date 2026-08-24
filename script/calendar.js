@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const nextMonthBtn = document.getElementById('next-month');
     const todayBtn = document.getElementById('today-btn');
     const eventPanel = document.getElementById('event-panel');
-    const eventDate = document.getElementById('event-date');
-    const eventList = document.getElementById('event-list');
+    const eventDateEl = document.getElementById('event-date');
+    const eventListEl = document.getElementById('event-list');
 
     let currentDate = new Date();
     let selectedDate = null;
