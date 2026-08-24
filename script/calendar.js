@@ -36,7 +36,7 @@ function renderCalendar() {
         0
     );
 
-    const prevlastDay = new Date(
+    const prevLastDay = new Date(
         currentDate.getFullYear(),
         currentDate.getMonth(),
         0
@@ -57,8 +57,8 @@ function renderCalendar() {
 
     //Previous Month Days
     for (let x = firstDayIndex; x > 0; x--) {
-        const prevDate = prevlastDay.getDate() - x + 1;
-        const dateKey = `${currentDate.getfullYear()}-${currentDate.getMonth()}-${prevDate}`;
+        const prevDate = prevLastDay.getDate() - x + 1;
+        const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth()}-${prevDate}`;
         const hasEvent = events[dateKey] !== undefined
 
         days += `<div class="day other-month${hasEvent ? 'has-events' : ''}">${prevDate}></div>`
@@ -88,17 +88,17 @@ function renderCalendar() {
         if (
             selectedDate &&
             date.getDate() === selectedDate.getDate() &&
-            date.getMonth() === selectedMonth.getMonth() &&
-            date.getFullYear() === selectedFullYar.getFullYear() 
+            date.getMonth() === selectedDate.getMonth() &&
+            date.getFullYear() === selectedDate.getFullYear() 
         ) {
             dayClass += ' selected';
         }
 
         if (hasEvent) {
-            dayClass += ' hasEvents';
+            dayClass += ' has-events';
         }
 
-        days += `<div class="${dayClass}" data-date="${DateKey}">${i}</div>`;
+        days += `<div class="${dayClass}" data-date="${dateKey}">${i}</div>`;
     }
 
     //Next months days
@@ -106,7 +106,7 @@ function renderCalendar() {
         const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth() + 2}-${j}`;
         const hasEvent = events[dateKey] !== undefined;
 
-        days += `<div class="day other-month${hasEvent ? ' hasEvents' : ''}">${j}</div>`;
+        days += `<div class="day other-month${hasEvent ? ' has-events' : ''}">${j}</div>`;
     }
 
     daysElement.innerHTML = days;
@@ -127,7 +127,7 @@ function renderCalendar() {
 //Show events for selected date
 function showEvents(dateStr) {
     const [year, month, day] = dateStr.split('-').map(Number);
-    const dateObj = new Date(year, month -1, day);
+    const dateObj = new Date(year, month - 1, day);
     const months = [
         "January", "February", "March", "April", "May", "June", "July", "August", 
         "September", "October", "November", "December"
