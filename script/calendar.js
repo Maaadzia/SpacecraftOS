@@ -51,7 +51,7 @@ function renderCalendar() {
         "September", "October", "November", "December"
     ];
 
-    monthYearEl.innerHTML = `${months[currentDate.getMonth()]} ${currentDate.getfullYear()}`;
+    monthYearEl.innerHTML = `${months[currentDate.getMonth()]} ${currentDate.getFullYear()}`;
 
     let days = "";
 
