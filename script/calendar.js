@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     //Sample events data nwm co to xd
     const events = {
-        '2026-08-30': [
+        '2026-8-30': [
             { time: 'All Day', text: 'Nancy Grace Roman Space Telescope launch'},
             { time: '11:00 AM', text: 'Study session'}
         ],
-        '2026-09-05': [
+        '2026-9-5': [
             { time: '05:00 PM', text: 'Coffee with friends'},
         ]
     };
