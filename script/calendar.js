@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const monthYearElement = document.getElementById('month-year');
-    const daysElement = document.getElementById('days');
+    const monthYearEl = document.getElementById('month-year');
+    const daysEl = document.getElementById('days');
     const prevMonthBtn = document.getElementById('prev-month');
     const nextMonthBtn = document.getElementById('next-month');
     const todayBtn = document.getElementById('today-btn');
@@ -51,7 +51,7 @@ function renderCalendar() {
         "September", "October", "November", "December"
     ];
 
-    monthYearElement.innerHTML = `${months[currentDate.getMonth()]} ${currentDate.getfullYear()}`;
+    monthYearEl.innerHTML = `${months[currentDate.getMonth()]} ${currentDate.getfullYear()}`;
 
     let days = "";
 
@@ -59,9 +59,9 @@ function renderCalendar() {
     for (let x = firstDayIndex; x > 0; x--) {
         const prevDate = prevLastDay.getDate() - x + 1;
         const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth()}-${prevDate}`;
-        const hasEvent = events[dateKey] !== undefined
+        const hasEvent = events[dateKey] !== undefined;
 
-        days += `<div class="day other-month${hasEvent ? 'has-events' : ''}">${prevDate}></div>`
+        days += `<div class="day other-month${hasEvent ? ' has-events' : ''}">${prevDate}></div>`;
     }
 
     //Current month days 
@@ -109,7 +109,7 @@ function renderCalendar() {
         days += `<div class="day other-month${hasEvent ? ' has-events' : ''}">${j}</div>`;
     }
 
-    daysElement.innerHTML = days;
+    daysEl.innerHTML = days;
 
     //Adding click event to days
 
@@ -132,9 +132,7 @@ function showEvents(dateStr) {
         "January", "February", "March", "April", "May", "June", "July", "August", 
         "September", "October", "November", "December"
     ];
-    const dayNames = [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", 
-    ];
+    const dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     const dayName = dayNames[dateObj.getDay()];
 
     eventDateEl.textContent = `${dayName}, ${months[dateObj.getMonth()]} ${day}, ${year}`;
