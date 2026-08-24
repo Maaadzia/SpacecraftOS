@@ -24,6 +24,7 @@ dragElement(document.getElementById("OpportunityApp"));
 dragElement(document.getElementById("SnakeApp"));
 dragElement(document.getElementById("MapApp"));
 dragElement(document.getElementById("NancyGraceRomanSTApp"));
+dragElement(document.getElementById("CalendarApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -269,6 +270,14 @@ var NancyGraceRomanSTAppScreenClose = document.querySelector("#NancyGraceRomanST
 
 NancyGraceRomanSTAppScreenClose.addEventListener("click", () => closeWindow(NancyGraceRomanSTAppScreen));
 
+//CLOSE CALENDARAPP  
+
+var CalendarAppScreen = document.querySelector("#CalendarApp")
+
+var CalendarAppScreenClose = document.querySelector("#CalendarAppclose")
+
+CalendarAppScreenClose.addEventListener("click", () => closeWindow(CalendarAppScreen));
+
 
 
 //RISING ON TOP
@@ -294,6 +303,7 @@ addWindowTapHandling(SnakeAppScreen)
 addWindowTapHandling(MapAppScreen)
 addWindowTapHandling(SettingsScreen)
 addWindowTapHandling(NancyGraceRomanSTApp)
+addWindowTapHandling(CalendarApp)
 
 
 function handleWindowTap(element) {
@@ -370,6 +380,7 @@ initializeIcon("OpportunityApp")
 initializeIcon("SnakeApp")
 initializeIcon("MapApp")
 initializeIcon("NancyGraceRomanSTApp")
+initializeIcon("CalendarApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -390,4 +401,5 @@ initializeWindow("OpportunityApp")
 initializeWindow("SnakeApp")
 initializeWindow("MapApp")
 initializeWindow("NancyGraceRomanSTApp")
+initializeWindow("CalendarApp")
 
