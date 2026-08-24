@@ -703,3 +703,254 @@ a {
 .labelText {
     margin-bottom: 100px;
 }
+
+/* calender app */
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calendar-container {
+    background: var(--button-background);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3 ease
+}
+
+.calendar-container:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 15 35 rgb(0, 0, 0, 0.15);
+}
+
+.calendar-header {
+    background: #1c2026;
+    padding: 1.5rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.month-year {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    position: relative
+}
+
+.nav-buttons-calendar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 97%;
+    top: 50%;
+    left: 0; 
+    transform: translateY(-50%);
+    padding: 0 1rem;
+    z-index: 1;
+}
+
+.nav-button-calendar {
+    background: var(--window-color);
+    color: var(--text-color);
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 500ms ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-button-calendar:hover {
+    transform: scale(1.1)
+}
+
+.weekdays {
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0.5rem 1rem;
+    background: #21252c;
+    font-weight: 600;
+}
+
+.weekday {
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.days {
+    display: grid; 
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    padding: 1rem;
+}
+
+.day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    font-weight: 500;
+    color: violet;
+}
+
+.day:hover {
+    background: palevioletred;
+    transform: scale(1.1);
+}
+
+.day.today {
+    background: pink;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+.day-selected {
+    background: purple;
+    color: var(--text-color);
+    font-weight: bold;
+    animation: pop 0.3 ease;
+}
+
+@keyframes pop {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.day.other-month {
+    color: plum;
+    opacity: 0.5;
+}
+
+.day.has-events::after {
+    content:'';
+    position: absolute;
+    bottom: 5px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: papayawhip;
+}
+
+.calendar-footer {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid var(--switch-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.today-btn {
+    background: var(--switch-color);
+    color: var(--window-color);
+    border: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    width: fit-content;
+    height: 40px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+    font-weight: 500;
+}
+
+.today-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px #353c4781
+}
+
+.event-indicator {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* tutaj event panel a u góry jest kalendarz */
+
+.event-panel {
+    background: var(--button-background);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.event-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--switch-color)
+}
+
+.event-date {
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+.event-list {
+    overflow-y: auto;
+    max-height: 50px;
+}
+
+.event-item {
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+    background: pink;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    box-shadow: 0 3px 10px rgb(0, 0, 0, 0.05);
+    transition: transform 0.2 ease;
+}
+
+.event-item:hover {
+    transform: translateX(5px)
+}
+
+.event-color {
+    width: 14px; 
+    height: 14px;
+    border-radius: 50%;
+    background: azure;
+    flex-shrink: 0;
+}
+
+.event-time {
+    font-weight: 600;
+    color: darkmagenta;
+    min-width: 80px;
+}
+
+.event-text {
+    flex: 1;
+}
+
+.no-events {
+    text-align: center;
+    color: var(--link-color);
+    padding: 1rem 1rem;
+    font-style: italic
+}
+
+.event-icon {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
