@@ -1,0 +1,188 @@
+document.addEventListener('DOMContentLoaded', function() {
+    const monthYearElement = document.getElementById('month-year');
+    const daysElement = document.getElementById('days');
+    const prevMonthBtn = document.getElementById('prev-month');
+    const nextMonthBtn = document.getElementById('next-month');
+    const todayBtn = document.getElementById('today-btn');
+    const eventPanel = document.getElementById('event-panel');
+    const eventDate = document.getElementById('event-date');
+    const eventList = document.getElementById('event-list');
+
+    let currentDate = new Date();
+    let selectedDate = null;
+
+    //Sample events data nwm co to xd
+    const events = {
+        '30-08-2026': [
+            { time: 'All Day', text: 'Nancy Grace Roman Space Telescope launch'},
+            { time: '11:00 AM', text: 'Study session'}
+        ],
+        '05-09-2026': [
+            { time: '05:00 PM', text: 'Coffee with friends'},
+        ]
+    };
+
+    // Render calendar to tez nwm co to xd
+function renderCalendar() {
+    const firstDay = new Date(
+        currentDate.getFullYear(),
+        currentDate.getMonth(),
+        1
+    );
+
+    const lastDay = new Date(
+        currentDate.getFullYear(),
+        currentDate.getMonth() + 1,
+        0
+    );
+
+    const prevlastDay = new Date(
+        currentDate.getFullYear(),
+        currentDate.getMonth(),
+        0
+    );
+
+    const firstDayIndex = firstDay.getDay();
+    const lastDayIndex = lastDay.getDay();
+    const nextDays = 7 - lastDayIndex - 1;
+
+    const months = [
+        "January", "February", "March", "April", "May", "June", "July", "August", 
+        "September", "October", "November", "December"
+    ];
+
+    monthYearElement.innerHTML = `${months[currentDate.getMonth()]} ${currentDate.getfullYear()}`;
+
+    let days = "";
+
+    //Previous Month Days
+    for (let x = firstDayIndex; x > 0; x--) {
+        const prevDate = prevlastDay.getDate() - x + 1;
+        const dateKey = `${currentDate.getfullYear()}-${currentDate.getMonth()}-${prevDate}`;
+        const hasEvent = events[dateKey] !== undefined
+
+        days += `<div class="day other-month${hasEvent ? 'has-events' : ''}">${prevDate}></div>`
+    }
+
+    //Current month days 
+    for (let i = 1; i <= lastDay.getDate(); i++) {
+        const date = new Date(
+            currentDate.getFullYear(),
+            currentDate.getMonth(),
+            i
+        );
+
+        const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth() + 1}-${i}`;
+        const hasEvent = events[dateKey] !== undefined;
+
+        let dayClass = 'day';
+
+        if (
+            date.getDate() === new Date().getDate() &&
+            date.getMonth() === new Date().getMonth() &&
+            date.getFullYear() === new Date().getFullYear() 
+        ) {
+            dayClass += ' today';
+        }
+
+        if (
+            selectedDate &&
+            date.getDate() === selectedDate.getDate() &&
+            date.getMonth() === selectedMonth.getMonth() &&
+            date.getFullYear() === selectedFullYar.getFullYear() 
+        ) {
+            dayClass += ' selected';
+        }
+
+        if (hasEvent) {
+            dayClass += ' hasEvents';
+        }
+
+        days += `<div class="${dayClass}" data-date="${DateKey}">${i}</div>`;
+    }
+
+    //Next months days
+    for (let j = 1; j <= nextDays; j++) {
+        const dateKey = `${currentDate.getFullYear()}-${currentDate.getMonth() + 2}-${j}`;
+        const hasEvent = events[dateKey] !== undefined;
+
+        days += `<div class="day other-month${hasEvent ? ' hasEvents' : ''}">${j}</div>`;
+    }
+
+    daysElement.innerHTML = days;
+
+    //Adding click event to days
+
+    document.querySelectorAll('.day:not(.other.month)').forEach(day => {
+        day.addEventListener('click', () => {
+            const dateStr = day.getAttribute('data-date');
+            const [year, month, dayNum] = dateStr.split('-').map(Number);
+            selectedDate = new Date(year, month -1, dayNum);
+            renderCalendar();
+            showEvents(dateStr);
+        });
+    });
+}
+
+//Show events for selected date
+function showEvents(dateStr) {
+    const [year, month, day] = dateStr.split('-').map(Number);
+    const dateObj = new Date(year, month -1, day);
+    const months = [
+        "January", "February", "March", "April", "May", "June", "July", "August", 
+        "September", "October", "November", "December"
+    ];
+    const dayNames = [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday", 
+    ];
+    const dayName = dayNames[dateObj.getDay()];
+
+    eventDateEl.textContent = `${dayName}, ${months[dateObj.getMonth()]} ${day}, ${year}`;
+
+    //Clear Events
+    eventListEl.innerHTML = '';
+
+    if (events[dateStr]) {
+        events[dateStr].forEach(event => {
+            const eventItem = document.createElement('div');
+            eventItem.className = 'event-item';
+            eventItem.innerHTML = `
+                <div class="event-color"></div>
+                <div class="event-time>${event.time}</div>
+                <div class="event-text>${event.text}</div>`;
+            eventListEl.appendChild(eventItem);
+        });
+    } else {
+        eventListEl.innerHTML = '<div class="no-events">No events scheduled for this day</div>';
+    }
+}
+
+//Previous month 
+prevMonthBtn.addEventListener('click', () => {
+    currentDate.setMonth(currentDate.getMonth() - 1);
+    renderCalendar();
+    eventDateEl.textContent = 'select a date';
+    eventListEl.innerHTML = '<div class="no-events">Select a date with events to view them here</div>';
+});
+
+//Next month
+nextMonthBtn.addEventListener('click', () => {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    renderCalendar();
+    eventDateEl.textContent = 'select a date';
+    eventListEl.innerHTML = '<div class="no-events">Select a date with events to view them here</div>';
+});
+
+//Today button
+todayBtn.addEventListener('click', () => {
+    currentDate = new Date();
+    selectedDate = new Date();
+    renderCalendar();
+
+    const dateStr = `${currentDate.getFullYear()}-${currentDate.getMonth() + 1}-${currentDate.getDate()}`;
+    showEvents(dateStr);
+});
+
+//INITIALIZE CALENDAR!!!
+renderCalendar();
+});
