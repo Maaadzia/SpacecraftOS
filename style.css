@@ -736,10 +736,10 @@ a {
 }
 
 .month-year {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
-    position: relative
+    margin-bottom: 0.2rem;
+    position: relative;
 }
 
 .nav-buttons-calendar {
