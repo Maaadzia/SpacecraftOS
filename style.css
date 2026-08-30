@@ -923,12 +923,14 @@ a {
 .event-list {
     overflow-y: auto;
     max-height: 50px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .event-item {
     padding: 1rem;
     margin-bottom: 0.8rem;
-    background: pink;
+    background: var(--window-color);
     border-radius: 12px;
     display: flex;
     align-items: center;
@@ -968,5 +970,5 @@ a {
 
 .event-icon {
     font-size: 1.2rem;
-    margin-right: 10px;
+    margin-left: 10px;
 }
