@@ -708,7 +708,7 @@ a {
 
 .container2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
 }
 
@@ -717,7 +717,9 @@ a {
     border-radius: 10px;
     box-shadow: 0 10px 30px rgb(0, 0, 0, 0.1);
     overflow: hidden;
-    transition: all 0.3 ease
+    transition: all 0.3 ease;
+    width: 280px;
+    height: 450px;
 }
 
 .calendar-container:hover {
@@ -734,7 +736,7 @@ a {
 }
 
 .month-year {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
     position: relative
@@ -744,7 +746,7 @@ a {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    width: 97%;
+    width: 91%;
     top: 50%;
     left: 0; 
     transform: translateY(-50%);
@@ -773,22 +775,28 @@ a {
 .weekdays {
     display: grid; 
     grid-template-columns: repeat(7, 1fr);
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     background: #21252c;
     font-weight: 600;
+    width: 50px;
 }
 
 .weekday {
     text-align: center;
     padding: 0.5rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.daysContainer {
+    width: 280px;
+    height: fit-content;
+    max-height: 240px
 }
 
 .days {
     display: grid; 
     grid-template-columns: repeat(7, 1fr);
     gap: 5px;
-    padding: 1rem;
 }
 
 .day {
@@ -833,6 +841,7 @@ a {
     opacity: 0.5;
 }
 
+/* kropeczka pod wydarzeniem */
 .day.has-events::after {
     content:'';
     position: absolute;
@@ -840,15 +849,17 @@ a {
     height: 5px;
     width: 5px;
     border-radius: 50%;
-    background: papayawhip;
+    background: var(--window-color);
 }
 
 .calendar-footer {
     padding: 1rem;
+    margin-top: 0.9rem;
     text-align: center;
     border-top: 1px solid var(--switch-color);
     display: flex;
     justify-content: space-between;
+    bottom: 5px;
 }
 
 .today-btn {
@@ -865,6 +876,8 @@ a {
     cursor: pointer;
     transition: all 0.3 ease;
     font-weight: 500;
+    bottom: 1%;
+    position: relative;
 }
 
 .today-btn:hover {
@@ -877,6 +890,9 @@ a {
     display: flex;
     align-items: center;
     gap: 5px;
+    bottom: 1%;
+    position: relative;
+    float: right;
 }
 
 /* tutaj event panel a u góry jest kalendarz */
@@ -929,7 +945,7 @@ a {
     width: 14px; 
     height: 14px;
     border-radius: 50%;
-    background: azure;
+    background: var(--button-background);
     flex-shrink: 0;
 }
 
