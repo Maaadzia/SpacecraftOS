@@ -723,7 +723,7 @@ a {
 }
 
 .calendar-container:hover {
-    transform: translateY(-1px);
+    transform: scale(1.01);
     box-shadow: 0 15 35 rgb(0, 0, 0, 0.15);
 }
 
