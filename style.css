@@ -1138,3 +1138,11 @@ a {
     background: var(--scrollbar-thumb2);
 }
 }
+
+@supports not (selector(::webkit-scrollbar)) {
+    /* For Firefox */
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: var(--scrollbar-thumb) var(--window-color);
+    }
+}
