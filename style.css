@@ -1117,21 +1117,25 @@ a {
 /* Scrollbar */
 
 .insideAppWindow::-webkit-scrollbar {
-    width: 13px
+    width: 13px !important;
+    height: 100% !important;
+    display: block !important;
+    visibility: visible !important;
 }
 
 .insideAppWindow::-webkit-scrollbar-track {
-    background: var(--window-color);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: solid 1px var(--scrollbar-color);
+    background: var(--window-color) !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    border: solid 1px var(--scrollbar-color) !important;
 }
 
 .insideAppWindow::-webkit-scrollbar-thumb {
-    background: var(--scrollbar-thumb);
-    border-radius: 20px;
+    background: var(--scrollbar-thumb) !important;
+    border-radius: 20px !important;
+    display: block !important;
 }
 
 .insideAppWindow::-webkit-scrollbar-thumb:hover {
-    background: var(--scrollbar-thumb2);
+    background: var(--scrollbar-thumb2) !important;
 }
