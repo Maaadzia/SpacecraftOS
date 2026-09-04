@@ -1066,3 +1066,30 @@ a {
 #timer-controls button:hover{
     transform: scale(1.1);
 }
+
+/* Dock Animation */
+
+.AAIcons {
+    border-radius: 10px; 
+    width: 50px; 
+    height: 50px;
+    transition: width, height, margin-right, cubic-bezier(0.25, 1, 0.5, 1) 100ms;
+}
+
+.AAIcons:hover {
+    width: 75px; 
+    height: 75px;
+    margin-right: -25px;
+}
+
+.AAIcons:hover + .AAIcons {
+    width: 64px; 
+    height: 64px;
+    margin-right: -15px;
+}
+
+.AAIcons:has(+ .AAIcons:hover) {
+    width: 64px; 
+    height: 64px;
+    margin-right: -15px;
+}
