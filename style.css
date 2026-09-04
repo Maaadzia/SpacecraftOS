@@ -134,7 +134,8 @@ a {
     height: 300px;
     overflow-y: auto !important;
     color: var(--text-color);
-    position: relative
+    position: relative;
+    scrollbar-gutter: stable;
 }
 
 .insideAppWindow-noscroll {
