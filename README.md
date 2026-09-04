@@ -158,6 +158,9 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 26. Map App Icon Satellite - NASA - https://science.nasa.gov/blogs/swift/2026/07/28/commissioning-update-for-spacecraft-to-boost-nasas-swift/
 27. Map App Icon localisation icon - https://fonts.google.com/icons
 28. Nancy Grace Roman Space Telescope App Icon - NASA - https://science.nasa.gov/mission/roman-space-telescope/
+29. NASA iconic timer which I put on timer App icon - NASA/Kim Shiflett - https://www.space.com/32703-nasa-countdown-clock-ticking-again.html
+30. Coffee from Calendar App Icon - Nathan Dumlao - https://unsplash.com/photos/top-view-photography-of-heart-latte-coffee-XOhI_kW_TaM
+31. NGRSTApp from Calendar App Icon - NASA - https://en.wikipedia.org/wiki/Nancy_Grace_Roman_Space_Telescope, https://science.nasa.gov/gallery/roman-space-telescope-illustrations/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
