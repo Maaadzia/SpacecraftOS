@@ -171,6 +171,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 6. https://www.youtube.com/watch?v=gY7TzDW60RQ - calendar
 7. https://www.youtube.com/watch?v=d8-LGhKtzRw - timer
 8. https://www.youtube.com/watch?v=_ZcIFTvLm64&t=1s - dock animation
+9. https://www.youtube.com/watch?v=lvKK2fs6h4I - scrollbar
 
 **Information Sources**
 1. https://www.planetary.org/space-missions/voyager

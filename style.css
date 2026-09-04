@@ -14,6 +14,9 @@
     --calendar-daysHover: rgb(252, 240, 220);
     --calendar-daysToday: rgb(241, 229, 208);
     --calendar-navs: rgb(250, 242, 229);
+    --scrollbar-color: #353c47;
+    --scrollbar-thumb: #353c47;
+    --scrollbar-thumb2: #242930;
 }
 
 .darkmode {
@@ -31,6 +34,9 @@
     --calendar-daysHover: #21252c;
     --calendar-daysToday: #1c2026;
     --calendar-navs: #353c47;
+    --scrollbar-color: rgb(250, 242, 229);
+    --scrollbar-thumb: rgb(250, 242, 229);
+    --scrollbar-thumb2: rgb(218, 209, 193);
 }
 
 #theme-switch {
@@ -375,6 +381,9 @@ a {
     --calendar-daysHover: rgb(102, 249, 102);
     --calendar-daysToday: rgb(91, 230, 91);
     --calendar-navs: #d3ffbcda;
+    --scrollbar-color: #374e2c;
+    --scrollbar-thumb: #374e2c;
+    --scrollbar-thumb2: #40a70d;
 }
 
 
@@ -395,6 +404,9 @@ a {
     --calendar-daysHover: #90c0f4;
     --calendar-daysToday: #77a5d5;
     --calendar-navs: #cde4fd;
+    --scrollbar-color: #77a5d5;
+    --scrollbar-thumb: #6490bf;
+    --scrollbar-thumb2: #90c0f4;
 }
 
 .Sunset,
@@ -414,6 +426,9 @@ a {
     --calendar-daysHover: #fffdf8;
     --calendar-daysToday: #bbeeee;
     --calendar-navs: #bbeeee;
+    --scrollbar-color: #fffdf8;
+    --scrollbar-thumb: #fffdf8;
+    --scrollbar-thumb2: #bbeeee;
 }
 
 .roverAnimation {
@@ -1097,4 +1112,26 @@ a {
     width: 55px; 
     height: 55px;
     margin-right: -15px;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 13px
+}
+
+::-webkit-scrollbar-track {
+    background: var(--window-color);
+    border-top-right-radius: 100vw;
+    border-bottom-right-radius: 100vw;
+    border: solid 1px var(--scrollbar-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb2);
 }
