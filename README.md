@@ -199,3 +199,4 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 ## 
 
 Build for NASA stardance Hackclub challange with the webOS mission
+It was an amazing journey, I really enjoy coding! Thanks so much for this opportunity
