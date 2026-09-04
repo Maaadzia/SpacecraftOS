@@ -132,7 +132,7 @@ a {
     background-color: var(--window-color); padding: 16px; 
     width: 850px;
     height: 300px;
-    overflow-y: scroll;
+    overflow-y: scroll !important;
     color: var(--text-color);
     position: relative
 }
