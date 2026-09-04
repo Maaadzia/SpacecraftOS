@@ -19,7 +19,89 @@ document.addEventListener('DOMContentLoaded', function() {
         ],
         '2026-9-5': [
             { time: '05:00 PM', text: 'Coffee with friends'},
-        ]
+            { time: '07:00 AM', text: 'Voyager 1 Launch Anniversary'}
+        ],
+        '2026-4-12': [
+            { time: '05:00 PM', text: 'Sławosz Uznański-Wiśniewski Birthday'},
+        ],
+        '2027-4-12': [
+            { time: '05:00 PM', text: 'Sławosz Uznański-Wiśniewski Birthday'},
+        ],
+        '2026-11-11': [
+            { time: '05:00 PM', text: 'Reid Wiseman Birthday'},
+        ],
+        '2026-7-1': [
+            { time: '05:00 PM', text: 'Jessica Meir Birthday'},
+        ],
+        '2027-4-30': [
+            { time: '05:00 PM', text: 'Victor Glover Birthday'},
+        ],
+        '2026-4-30': [
+            { time: '05:00 PM', text: 'Victor Glover Birthday'},
+        ],
+        '2027-1-27': [
+            { time: '05:00 PM', text: 'Victor Glover Birthday'},
+        ],
+        '2026-8-12': [
+            { time: '05:00 PM', text: 'Solar Eclipse!'},
+        ],
+        '2026-9-17': [
+            { time: '05:00 PM', text: 'Stargazing'},
+        ],
+        '2026-9-20': [
+            { time: '05:00 PM', text: 'Exam'},
+        ],
+        '2026-9-28': [
+            { time: '05:00 PM', text: 'Project deadline'},
+        ],
+        '2027-12-25': [
+            { time: '05:00 PM', text: 'James Webb Launch Anniversary'},
+        ],
+        '2026-4-24': [
+            { time: '05:00 PM', text: 'Hubble Launch Anniversary'},
+        ],
+        '2026-4-1': [
+            { time: '05:00 PM', text: 'Artemis II day one - launch'},
+        ],
+        '2026-4-2': [
+            { time: '05:00 PM', text: 'Artemis II day two'},
+        ],
+        '2026-4-3': [
+            { time: '05:00 PM', text: 'Artemis II day three'},
+        ],
+        '2026-4-4': [
+            { time: '05:00 PM', text: 'Artemis II day four'},
+        ],
+        '2026-4-5': [
+            { time: '05:00 PM', text: 'Artemis II day five'},
+        ],
+        '2026-4-6': [
+            { time: '05:00 PM', text: 'Artemis II day six'},
+        ],
+        '2026-4-7': [
+            { time: '05:00 PM', text: 'Artemis II day seven'},
+        ],
+        '2026-4-8': [
+            { time: '05:00 PM', text: 'Artemis II day eight'},
+        ],
+        '2026-4-9': [
+            { time: '05:00 PM', text: 'Artemis II day nine'},
+        ],
+        '2026-4-10': [
+            { time: '05:00 PM', text: 'Artemis II day ten - landing'},
+        ],
+        '2026-1-29': [
+            { time: '05:00 PM', text: 'Christina Koch Birthday'},
+        ],
+        '2027-9-5': [
+            { time: '05:00 PM', text: 'Voyager 1 Launch Anniversary'},
+        ],
+        '2027-8-22': [
+            { time: '05:00 PM', text: 'Voyager 2 Launch Anniversary'},
+        ],
+        '2026-8-22': [
+            { time: '05:00 PM', text: 'Voyager 2 Launch Anniversary'},
+        ],
     };
 
     // Render calendar to tez nwm co to xd
