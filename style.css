@@ -1117,7 +1117,7 @@ a {
 /* Scrollbar */
 
 
-@supports (selector(::webkit-scrollbar)) {
+/*@supports (selector(::webkit-scrollbar)) {
 ::-webkit-scrollbar {
     width: 13px
 }
@@ -1140,9 +1140,9 @@ a {
 }
 
 @supports not (selector(::webkit-scrollbar)) {
-    /* For Firefox */
+    for firefox
     * {
         scrollbar-width: thin;
         scrollbar-color: var(--scrollbar-thumb) var(--window-color);
     }
-}
+} */
