@@ -170,6 +170,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 5. https://www.youtube.com/watch?v=K8Rh5x3c9Pw&t=1237s - Snake Game (high score)
 6. https://www.youtube.com/watch?v=gY7TzDW60RQ - calendar
 7. https://www.youtube.com/watch?v=d8-LGhKtzRw - timer
+8. https://www.youtube.com/watch?v=_ZcIFTvLm64&t=1s - dock animation
 
 **Information Sources**
 1. https://www.planetary.org/space-missions/voyager
