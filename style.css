@@ -157,6 +157,7 @@ a {
 .AppsIcon:hover {
     transform: scale(1.1);
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
+    margin-top: -10px
     
 }
 
@@ -1070,26 +1071,30 @@ a {
 /* Dock Animation */
 
 .AAIcons {
-    border-radius: 10px; 
+    border-radius: 20px; 
     width: 50px; 
     height: 50px;
-    transition: width, height, margin-right, cubic-bezier(0.25, 1, 0.5, 1) 100ms;
+    transition: width, height, margin-right, cubic-bezier(0.25, 1, 0.5, 1) 250ms;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    border: solid 10px rgba(0, 0, 0, 0);
 }
 
 .AAIcons:hover {
-    width: 75px; 
-    height: 75px;
+    width: 60px; 
+    height: 60px;
     margin-right: -25px;
 }
 
 .AAIcons:hover + .AAIcons {
-    width: 64px; 
-    height: 64px;
+    width: 55px; 
+    height: 55px;
     margin-right: -15px;
 }
 
 .AAIcons:has(+ .AAIcons:hover) {
-    width: 64px; 
-    height: 64px;
+    width: 55px; 
+    height: 55px;
     margin-right: -15px;
 }
