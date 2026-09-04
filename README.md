@@ -1,7 +1,7 @@
 # SpacecraftOS
 An Operating System with a space theme based on spacecrafts. Learn, admire the works of humanity and enjoy this vojage!
 
-<img style="width: 275px; height: 250px;" src="readme images/SpacecraftOS Gif2.1.gif">
+<img style="width: 275px; height: 250px;" src="readme images/SpacecraftOS Gif3.gif">
 
 **TRY IT: https://maaadzia.github.io/SpacecraftOS/**
 
@@ -11,37 +11,37 @@ How to run localy:
 2. Enter downloaded folder
 3. Open "index.html" in your browser
 
-## Features
-On SpacecraftOS you can:
-1. Learn about Spacecrafts
-2. Learn how to see spacecrafts like ISS on your sky
-3. Listen to Artemis II wake up songs
-4. Rate picturesque photos from telescopes
-5. And if something inspires you, you can write it down in Notes app - Spacecraft Ideas
-
 ## Apps 
-You will find 8, well-thought-out apps:
+You will find 13, well-thought-out apps and some additonal features:
 - **Spacecrafts Apps**
-1. James Webb Space Telescope App - where you can learn about this telescope and rate some amazing photos it took
-2. Hubble Space Telescope App - where you also can learn about Hubble and rate some photos
-3. Artemis Mission App - where you can learn not only about Artemis II but about the whole mission!
+1. James Webb Space Telescope App 
+2. Hubble Space Telescope App 
+3. Artemis Mission App 
+4. Voyager App
+5. Mars Rovers App
+6. Nancy Grace Roman Space Telescope App
 - **Additional Apps**
-4. Spacecraft Ideas - where you can write down things, that inspired you
-5. Artemis II playlist - where you can listen to wake up songs that Artemis II crew had listened to durning theirs mission!
-6. Settings - where you can switch the mode from light to dark (or vice-versa), more to come soon!
+7. Spacecraft Ideas 
+8. Artemis II playlist 
+9. Photos From Voyager (Gallery)
+10. Snake Game
+11. Spacecraft Map
+12. Calendar
+13. Timer
+14. Settings (theme switching)
 - **Catch Guides**
-7. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
-8. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
+15. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
+16. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
 <img style="width: 100%; height: auto; border-radius: 2px;" src="readme images/SpacecraftOS screenshoot2.png">
 
-## Ship 2 main updates
-1. New Artemis App
-2. Second new app - Artemis II Playlist
-3. Settings and light/dark mode switch <br>
-
-Previous README gif: <br>
-<img style="width: 275px; height: 250px;" src="readme images/SpacecraftOS Gif1.gif">
+## Ship 3 main updates
+1. Snake Game
+2. Map, Timer, Voyager Photos, Calendar
+3. Nancy Grace Roman Space Telescope App
+4. Voyager App
+5. Mars Rovers App
+6. Variable Themes (in the settings) <br>
 
 ## Credits
 Huge thanks to all of these sources. Without them, this project would be nothing! 
