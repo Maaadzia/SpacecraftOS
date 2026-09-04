@@ -161,6 +161,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 29. NASA iconic timer which I put on timer App icon - NASA/Kim Shiflett - https://www.space.com/32703-nasa-countdown-clock-ticking-again.html
 30. Coffee from Calendar App Icon - Nathan Dumlao - https://unsplash.com/photos/top-view-photography-of-heart-latte-coffee-XOhI_kW_TaM
 31. NGRSTApp from Calendar App Icon - NASA - https://en.wikipedia.org/wiki/Nancy_Grace_Roman_Space_Telescope, https://science.nasa.gov/gallery/roman-space-telescope-illustrations/
+32. Falcon Heavy - X/@NASA - I found it here: https://www.aninews.in/news/world/us/nasas-nancy-grace-roman-space-telescope-set-for-launch-from-spacex-falcon-heavy-rocket-at-kennedy-space-center20260830080919/
+33. NGRST instruments - NASA - https://science.nasa.gov/mission/roman-space-telescope/roman-observatory/
 
 **Youtube videos and other tutorials**
 1. https://www.youtube.com/watch?v=KD1Yo8a_Qis - infinite scroll
@@ -186,11 +188,13 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 10. https://en.wikipedia.org/wiki/Spirit_(rover)
 11. https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/
 12. https://science.nasa.gov/mission/roman-space-telescope/roman-observatory/
+13. https://en.wikipedia.org/wiki/Nancy_Grace_Roman_Space_Telescope
 
 **Other**
 1. I used this background remover - https://www.remove.bg/
 2. Map App NASA embeeded map - https://eyes.nasa.gov/apps/solar-system/#/home
 3. For Additional Apps Icons I used Canva and Paint 3d
+4. NGRST yt vid launch - https://www.youtube.com/watch?v=6o3m9Bw67Os
 
 ## 
 
