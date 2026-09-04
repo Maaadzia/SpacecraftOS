@@ -1009,3 +1009,60 @@ a {
     font-size: 1.2rem;
     margin-left: 10px;
 }
+
+
+/* Timer App */
+
+.insideAppWindow-timer {
+    border: solid; border-radius: 10px;
+    background-color: var(--window-color); 
+    padding: 5px; 
+    width: 850px;
+    height: 300px;
+    overflow-y: none;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TimerH1 {
+    font-size: 40px
+}
+
+#timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px var(--calendar-header);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: var(--calendar-weekdays);
+    width: 550px;
+}
+
+#timer-display {
+    font-size: 70px;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.5);
+    margin-bottom: 15px;
+}
+
+#timer-controls button{
+    cursor: pointer; 
+    font-family: 'Finlandica Text', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    color: var(--calendar-weekdays);
+    background-color: var(--switch-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 100px;
+    transition: 0.3s ease
+}
+
+#timer-controls button:hover{
+    transform: scale(1.1);
+}
