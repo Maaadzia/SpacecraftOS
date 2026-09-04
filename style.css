@@ -567,7 +567,7 @@ a {
 }
 
 .tabSwitching {
-    animation: appAnimation linear 1 500ms
+    animation: appAnimation linear 1 350ms
 }
 
 @keyframes appAnimation {
