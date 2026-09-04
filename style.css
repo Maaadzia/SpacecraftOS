@@ -1116,22 +1116,25 @@ a {
 
 /* Scrollbar */
 
+
+@supports (selector(::webkit-scrollbar)) {
 ::-webkit-scrollbar {
     width: 13px
 }
 
 ::-webkit-scrollbar-track {
     background: var(--window-color);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-top-right-radius: 100vw;
+    border-bottom-right-radius: 100vw;
     border: solid 1px var(--scrollbar-color);
 }
 
 ::-webkit-scrollbar-thumb {
     background: var(--scrollbar-thumb);
-    border-radius: 20px;
+    border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--scrollbar-thumb2);
+}
 }
