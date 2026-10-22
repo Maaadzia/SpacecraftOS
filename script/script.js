@@ -389,20 +389,20 @@ var icon = document.querySelector("#" + name + "Icon")
 var screen = document.querySelector("#" + name)
 icon.addEventListener("click", () => handleIconTap(icon, screen));
 }
-initializeIcon("JamesWebbSpaceTelescopeApp")
-initializeIcon("NASCApp")
-initializeIcon("HubbleSpaceTelescopeApp")
-initializeIcon("ArtemisApp")
-initializeIcon("PlaylistApp")
-initializeIcon("PhotosApp")
-initializeIcon("VoyagerApp")
-initializeIcon("OpportunityApp")
-initializeIcon("SnakeApp")
-initializeIcon("MapApp")
-initializeIcon("NancyGraceRomanSTApp")
-initializeIcon("CalendarApp")
-initializeIcon("TimerApp")
-initializeIcon("SpaceShuttleApp")
+initializeIcon("JamesWebbSpaceTelescopeApp");
+initializeIcon("NASCApp");
+initializeIcon("HubbleSpaceTelescopeApp");
+initializeIcon("ArtemisApp");
+initializeIcon("PlaylistApp");
+initializeIcon("PhotosApp");
+initializeIcon("VoyagerApp");
+initializeIcon("OpportunityApp");
+initializeIcon("SnakeApp");
+initializeIcon("MapApp");
+initializeIcon("NancyGraceRomanSTApp");
+initializeIcon("CalendarApp");
+initializeIcon("TimerApp");
+initializeIcon("SpaceShuttleApp");
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -411,19 +411,19 @@ addWindowTapHandling(screen)
 makeClosable(elementName)
 dragElement(screen)
 }
-initializeWindow("start")
-initializeWindow("JamesWebbSpaceTelescopeApp")
-initializeWindow("NASCApp")
-initializeWindow("HubbleSpaceTelescopeApp")
-initializeWindow("ArtemisApp")
-initializeWindow("PlaylistApp")
-initializeWindow("PhotosApp")
-initializeWindow("VoyagerApp")
-initializeWindow("OpportunityApp")
-initializeWindow("SnakeApp")
-initializeWindow("MapApp")
-initializeWindow("NancyGraceRomanSTApp")
-initializeWindow("CalendarApp")
-initializeWindow("TimerApp")
-initializeWindow("SpaceShuttleApp")
+initializeWindow("start");
+initializeWindow("JamesWebbSpaceTelescopeApp");
+initializeWindow("NASCApp");
+initializeWindow("HubbleSpaceTelescopeApp");
+initializeWindow("ArtemisApp");
+initializeWindow("PlaylistApp");
+initializeWindow("PhotosApp");
+initializeWindow("VoyagerApp");
+initializeWindow("OpportunityApp");
+initializeWindow("SnakeApp");
+initializeWindow("MapApp");
+initializeWindow("NancyGraceRomanSTApp");
+initializeWindow("CalendarApp");
+initializeWindow("TimerApp");
+initializeWindow("SpaceShuttleApp");
 
