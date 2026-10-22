@@ -26,6 +26,7 @@ dragElement(document.getElementById("MapApp"));
 dragElement(document.getElementById("NancyGraceRomanSTApp"));
 dragElement(document.getElementById("CalendarApp"));
 dragElement(document.getElementById("TimerApp"));
+dragElement(document.getElementById("SpaceShuttleApp"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -271,6 +272,14 @@ var NancyGraceRomanSTAppScreenClose = document.querySelector("#NancyGraceRomanST
 
 NancyGraceRomanSTAppScreenClose.addEventListener("click", () => closeWindow(NancyGraceRomanSTAppScreen));
 
+//CLOSE SPACESHUTTLEAPP  
+
+var SpaceShuttleAppScreen = document.querySelector("#SpaceShuttleApp")
+
+var SpaceShuttleAppScreenClose = document.querySelector("#SpaceShuttleAppclose")
+
+SpaceShuttleAppScreenClose.addEventListener("click", () => closeWindow(SpaceShuttleAppScreen));
+
 //CLOSE CALENDARAPP  
 
 var CalendarAppScreen = document.querySelector("#CalendarApp")
@@ -297,23 +306,24 @@ function addWindowTapHandling(element) {
     handleWindowTap(element)
   )
 }
-addWindowTapHandling(startScreen)
-addWindowTapHandling(issGuideScreen)
-addWindowTapHandling(starlinkGuideScreen)
-addWindowTapHandling(JamesWebbSpaceTelescopeAppScreen)
-addWindowTapHandling(NASCAppScreen)
-addWindowTapHandling(HubbleSpaceTelescopeAppScreen)
-addWindowTapHandling(ArtemisAppScreen)
-addWindowTapHandling(PlaylistAppScreen)
-addWindowTapHandling(PhotosAppScreen)
-addWindowTapHandling(VoyagerAppScreen)
-addWindowTapHandling(OpportunityAppScreen)
-addWindowTapHandling(SnakeAppScreen)
-addWindowTapHandling(MapAppScreen)
-addWindowTapHandling(SettingsScreen)
-addWindowTapHandling(NancyGraceRomanSTApp)
-addWindowTapHandling(CalendarApp)
-addWindowTapHandling(TimerApp)
+addWindowTapHandling(startScreen);
+addWindowTapHandling(issGuideScreen);
+addWindowTapHandling(starlinkGuideScreen);
+addWindowTapHandling(JamesWebbSpaceTelescopeAppScreen);
+addWindowTapHandling(NASCAppScreen);
+addWindowTapHandling(HubbleSpaceTelescopeAppScreen);
+addWindowTapHandling(ArtemisAppScreen);
+addWindowTapHandling(PlaylistAppScreen);
+addWindowTapHandling(PhotosAppScreen);
+addWindowTapHandling(VoyagerAppScreen);
+addWindowTapHandling(OpportunityAppScreen);
+addWindowTapHandling(SnakeAppScreen);
+addWindowTapHandling(MapAppScreen);
+addWindowTapHandling(SettingsScreen);
+addWindowTapHandling(NancyGraceRomanSTApp);
+addWindowTapHandling(CalendarApp);
+addWindowTapHandling(TimerApp);
+addWindowTapHandling(SpaceShuttleApp);
 
 
 function handleWindowTap(element) {
@@ -392,6 +402,7 @@ initializeIcon("MapApp")
 initializeIcon("NancyGraceRomanSTApp")
 initializeIcon("CalendarApp")
 initializeIcon("TimerApp")
+initializeIcon("SpaceShuttleApp")
 
 //INITIALIZE WINDOW
 function initializeWindow(elementName) {
@@ -414,4 +425,5 @@ initializeWindow("MapApp")
 initializeWindow("NancyGraceRomanSTApp")
 initializeWindow("CalendarApp")
 initializeWindow("TimerApp")
+initializeWindow("SpaceShuttleApp")
 
