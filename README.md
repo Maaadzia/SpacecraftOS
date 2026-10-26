@@ -196,7 +196,34 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 3. For Additional Apps Icons I used Canva and Paint 3d
 4. NGRST yt vid launch - https://www.youtube.com/watch?v=6o3m9Bw67Os
 
+## Ship 4 credits 
+
+**Photos**
+1. Space Shuttle App Icon - NASA/Kenny Allen - https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis#/media/File:Space_Shuttle_Atlantis_launches_on_STS-132.jpg
+2. Space Shuttle App gif 1 - NASA - https://www.youtube.com/watch?v=WCKHXbAKOWs
+3. Enterprise - NASA - https://pl.wikipedia.org/wiki/Enterprise_(wahad%C5%82owiec)#/media/Plik:Enterprise_free_flight.jpg
+4. Pathfinder - NASA - Kennedy Space Center image archive - https://en.wikipedia.org/wiki/Space_Shuttle_Pathfinder#/media/File:Space_Shuttle_Orbiter_model_Pathfinder.jpg
+5. Columbia - NASA - https://en.wikipedia.org/wiki/Space_Shuttle_Columbia#/media/File:Space_Shuttle_Columbia_lands_following_STS-62_on_18_March_1994._(cropped).jpg 
+6. Columbia disaster - https://pl.wikipedia.org/wiki/Katastrofa_promu_Columbia#/media/Plik:ColumbiaFLIR2003.png - YouTube: https://www.youtube.com/watch?v=lNfEUkxmliQ 
+7. Challenger - NASA - https://en.wikipedia.org/wiki/Space_Shuttle_Challenger#/media/File:S83-35803_(cropped).jpg
+8. Challenger disaster - Kennedy Space Center - https://pl.wikipedia.org/wiki/Katastrofa_promu_Challenger#/media/Plik:Challenger_explosion.jpg
+9. Discovery - NASA, Cowtowner - https://en.wikipedia.org/wiki/Space_Shuttle_Discovery#/media/File:STS-121_Discovery_posing_for_inspection_photos_edit1.jpg
+10. Atlantis - NASA - https://pl.wikipedia.org/wiki/Atlantis_(wahad%C5%82owiec)#/media/Plik:Atlantis_taking_off_on_STS-27.jpg
+11. Endeavour - NASA/Crew of Expedition 22 - https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour#/media/File:Endeavour_silhouette_STS-130.jpg
+
+**Information Sources**
+1. https://pl.wikipedia.org/wiki/Wahad%C5%82owiec#Zastosowanie
+2. https://en.wikipedia.org/wiki/Space_Shuttle#See_also
+3. https://pl.wikipedia.org/wiki/Pathfinder_(makieta_wahad%C5%82owca)
+4. https://pl.wikipedia.org/wiki/Katastrofa_promu_Columbia
+5. https://en.wikipedia.org/wiki/Space_Shuttle#Disasters
+6. https://en.wikipedia.org/wiki/Space_Shuttle_Challenger
+7. https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour
+8. https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis
+9. https://pl.wikipedia.org/wiki/Atlantis_(wahad%C5%82owiec)
+10. https://pl.wikipedia.org/wiki/Discovery_(wahad%C5%82owiec)
+
 ## 
 
 Build for NASA stardance Hackclub challange with the webOS mission
-It was an amazing journey, I really enjoy coding! Thanks so much for this opportunity
+It was an amazing journey, I really enjoyed coding this! Thanks so much for an amazing opportunity
