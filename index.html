@@ -6,19 +6,22 @@
         <link rel="icon" type="image/svg" href="images/RocketIcon.svg">
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Finlandica+Text:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Finlandica+Text:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
   <body 
     style="background-image: var(--background-image); background-size: cover; background-color: rgb(250, 242, 229);
     font-family: 'Finlandica Text', sans-serif;">
 
-    <img src="images/1Black.jpg" style=" position: absolute; margin: 0px; padding: 0px; top: 0%; left: 0%;
-     width:100%; height: 100%; z-index: 130;" class="Black">
+    <!-- Start automatic animation with SpacecraftOS baner, logo -->
+        <img src="images/1Black.jpg" style=" position: absolute; margin: 0px; padding: 0px; top: 0%; left: 0%;
+        width:100%; height: 100%; z-index: 130;" class="Black">
 
-    <img src="images/1Baner.jpg" style=" position: absolute; margin: 0px; padding: 0px; 
-     width:100%; height: 100%; z-index: 131;" class="Baner">
+        <img src="images/1Baner.jpg" style=" position: absolute; margin: 0px; padding: 0px; 
+        width:100%; height: 100%; z-index: 131;" class="Baner">
+
+    <!-- Top Bar -->
 
     <div id="top" style="display: flex; justify-content: space-between; border-radius: 10px; position:relative;
     background-color: #312f6c2b; backdrop-filter: blur(10px); color: #ffffff">
@@ -37,6 +40,8 @@
 
     </div>
 
+    <!-- Start Automatic Window -->
+
     <div id="start" style="border: solid; border-radius: 10px; background-color: #312f6c2b; backdrop-filter: blur(7px);
     padding: 10px; margin: 0px; width: fit-content; padding: 7px; flex-direction: column;
     position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);" id="start">
@@ -51,33 +56,34 @@
 
         </div>
 
-    <div id="start" style="border: solid; border-radius: 16px; text-align: justify;
-    background-color: var(--window-color); padding: 16px; width: 550px; color: var(--text-color)">
+        <div id="start" style="border: solid; border-radius: 16px; text-align: justify;
+        background-color: var(--window-color); padding: 16px; width: 550px; color: var(--text-color)">
 
-        <h1>SPACECRAFT OS</h1>
-        <p style="font-size: 18px;">Hii! Glad you're here! <br>
-        This OS is here to help you learn about many spacecrafts humanity created.
-        From huge creations like the ISS to smaller telescopes and satellites. 
-        On the bottom, there are 6 apps about spacecrafts.
-        On the left, you'll find some usual apps but with spacecraft theme.
-        You can personalise the UI in the settings (top right corner).
-        Please double click to open the apps. <br> 
-        <br>
-        Hope you'll enjoy this voyage!</p>
+            <h1>SPACECRAFT OS</h1>
+            <p style="font-size: 18px;">Hii! Glad you're here! <br>
+            This OS is here to help you learn about many spacecrafts humanity created.
+            From huge creations like the ISS to smaller telescopes and satellites. 
+            On the bottom, there are 6 apps about spacecrafts.
+            On the left, you'll find some usual apps but with spacecraft theme.
+            You can personalise the UI in the settings (top right corner).
+            Please double click to open the apps. <br> 
+            <br>
+            Hope you'll enjoy this voyage!</p>
 
-    </div>
+        </div>
     </div>
 
 
     
+    <!-- Guide on how to spot the ISS on your sky -->
 
     <div id="issGuide" style="border: solid; border-radius: 10px; background-color: #312f6c2b; backdrop-filter: blur(7px);
     padding: 10px; margin: 0px; width: fit-content; padding: 7px; flex-direction: column;
     position: absolute; left: 50%; top: 47%; transform: translate(-50%, -50%); display: none; z-index: 1" id="issGuide">
 
-    <img src="images/AdditionalApps/ISS img.png" style="position:absolute; top: 80%; left:-11%; transform:rotate(30deg); width: 204px; height: 136px; z-index: 100">
+        <img src="images/AdditionalApps/ISS img.png" style="position:absolute; top: 80%; left:-11%; transform:rotate(30deg); width: 204px; height: 136px; z-index: 100">
 
-        <div style="justify-content: space-between; display: flex;">
+            <div style="justify-content: space-between; display: flex;">
 
                 <p id="issGuideheader" style="margin-left: 10px; color: rgb(250, 242, 229); cursor: move;"> 
                     <strong>✶✶✶</strong> </p>
@@ -85,71 +91,69 @@
                 <p id="issGuideclose" style="margin-right: 10px; color: rgb(250, 242, 229); cursor: pointer;">
                      X </p>
 
-        </div>
+            </div>
 
-    <div id="issGuide" style="border: solid; border-radius: 16px; text-align: justify; color: var(--text-color);
-    background-color: var(--window-color); padding: 16px; width: 850px; overflow-y: scroll; height: 400px;">
+        <div id="issGuide" style="border: solid; border-radius: 16px; text-align: justify; color: var(--text-color);
+        background-color: var(--window-color); padding: 16px; width: 850px; overflow-y: scroll; height: 400px;">
 
-        <h1>HOW TO CATCH THE ISS - GUIDE</h1>
-        <p style="font-size: 18px;">So, you want to catch the ISS?<br>
-        Here are few steps that will help you: <br> <br>
-        <strong>- Search for "ISS flyover <dfn>*your country*</dfn>"</strong> <br>
-        In my country there's space influencer who keeps us updated on
-        ISS flights. But don't worry if you don't know anyone like this!
-        I'm pretty sure that if you look up on google or somewhere this sentence,
-        you'll easily find a website that will show you when and where (north, south..)
-        you can see the ISS in YOUR country! And, by the way, I'm currently working
-        on a website like this for COUNTRIES ALL OVER THE WORLD! The project is called ISS HUNT, 
-        so if you are interested check it out and let me know what country shall I add first! <br>
+            <h1>HOW TO CATCH THE ISS - GUIDE</h1>
+            <p style="font-size: 18px;">So, you want to catch the ISS?<br>
+            Here are few steps that will help you: <br> <br>
+            <strong>- Search for "ISS flyover <dfn>*your country*</dfn>"</strong> <br>
+            In my country there's space influencer who keeps us updated on
+            ISS flights. But don't worry if you don't know anyone like this!
+            I'm pretty sure that if you look up on google or somewhere this sentence,
+            you'll easily find a website that will show you when and where (north, south..)
+            you can see the ISS in YOUR country!<br>
             <br>
-        <strong>- Look for bright and pretty fast point</strong> <br>
-        Now, when you know when the ISS is flying over, just go out at this particular 
-        time and look at the night sky! You should notice bright, small point moving fast
-        through the sky - that's the ISS! The flights last between 3-7 minutes so you can 
-        admire the spacecraft without getting bored. <br>
+            <strong>- Look for bright and pretty fast point</strong> <br>
+            Now, when you know when the ISS is flying over, just go out at this particular 
+            time and look at the night sky! You should notice bright, small point moving fast
+            through the sky - that's the ISS! The flights last between 3-7 minutes so you can 
+            admire the spacecraft without getting bored. <br>
             <br>
         
-        <strong>Congrats!</strong> <br>
-        Now, you know how to spot the ISS! Enjoy the flyover! <br>
+            <strong>Congrats!</strong> <br>
+            Now, you know how to spot the ISS! Enjoy the flyover! <br>
             <br>
-        <strong> - PIEROGIII!! </strong> <br>
-        Wait, until you are still here, I want to show you Sławosz Uznański (polish astronaut and my compatriot) eating pierogi - delicious polish dish - on the ISS! <br>
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hAwbPq9Auw?si=PW9odwMTbCZEW0rK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
-        <p style="font-size: 15px; color:#232323"> <dfn> This video is from ESA's youtube channel </dfn> </p>
-        Hope you enjoyed it! I love Poland so much! Polska Gurooom!! <br>
+            <strong> - PIEROGIII!! </strong> <br>
+            Wait, until you are still here, I want to show you Sławosz Uznański (polish astronaut and my compatriot) eating pierogi - delicious polish dish - on the ISS! <br>
             <br>
-        <strong>- Learn more about the ISS: </strong> <br>
-            1. <a href="https://www.nasa.gov/international-space-station/"> 
-                NASA</a> page about the ISS <br>
-            2. <a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Where_is_the_International_Space_Station ">
-                ESA</a> page about the ISS <br>
-            3. <a href="https://en.wikipedia.org/wiki/International_Space_Station"> 
-                Wikipedia</a> page about the ISS  <br>
-            4. <a href="https://www.instagram.com/iss/?hl=en">
-                ISS instagram account</a> <br>
-            5. Youtube video about how engineers built the ISS
-                <a href="https://www.youtube.com/watch?v=j0ZZfIz9R1I"> part 1 </a> and
-                <a href="https://www.youtube.com/watch?v=SMJMYyszflM"> part 2 </a> <br>
-            6. <a href="https://www.youtube.com/watch?v=nmBbcNTUkOg">
-                ISS tour youtube video </a> <br>
-            7. <a href="https://www.youtube.com/watch?v=Snn1k_qEx20">
-                ISS GRAND tour youtube video</a> <br>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/3hAwbPq9Auw?si=PW9odwMTbCZEW0rK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br>
+                <p style="font-size: 15px; color:#232323"> <dfn> This video is from ESA's youtube channel </dfn> </p>
+            Hope you enjoyed it! I love Poland so much! Polska Gurooom!! <br>
+            <br>
+            <strong>- Learn more about the ISS: </strong> <br>
+                1. <a href="https://www.nasa.gov/international-space-station/"> 
+                    NASA</a> page about the ISS <br>
+                2. <a href="https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/International_Space_Station/Where_is_the_International_Space_Station ">
+                    ESA</a> page about the ISS <br>
+                3. <a href="https://en.wikipedia.org/wiki/International_Space_Station"> 
+                    Wikipedia</a> page about the ISS  <br>
+                4. <a href="https://www.instagram.com/iss/?hl=en">
+                    ISS instagram account</a> <br>
+                5. Youtube video about how engineers built the ISS
+                    <a href="https://www.youtube.com/watch?v=j0ZZfIz9R1I"> part 1 </a> and
+                    <a href="https://www.youtube.com/watch?v=SMJMYyszflM"> part 2 </a> <br>
+                6. <a href="https://www.youtube.com/watch?v=nmBbcNTUkOg">
+                    ISS tour youtube video </a> <br>
+                7. <a href="https://www.youtube.com/watch?v=Snn1k_qEx20">
+                    ISS GRAND tour youtube video</a> <br>
             
-        </p>
+            </p>
 
-    </div>
+        </div>
 
-    <div id="bottom bar">
+        <div id="bottom bar">
             <p style="text-shadow: rgb(250, 242, 229); color: #ffffffa1; text-align: right; cursor: pointer;
             margin: 5px;">
                 ISS Catch Guide</p>
-    </div>
+        </div>
 
     </div>
 
 
-
+    <!-- Guide on how to spot starlinks on your sky -->
     <div id="starlinkGuide" style="border: solid; border-radius: 10px; background-color: #312f6c2b; backdrop-filter: blur(7px);
     padding: 10px; margin: 0px; width: fit-content; padding: 7px; flex-direction: column;
     position: absolute; left: 50%; top: 47%; transform: translate(-50%, -50%); display: none;" id="issGuide">
@@ -164,52 +168,52 @@
 
         </div>
 
-    <div id="starlinkGuide" style="border: solid; border-radius: 16px; text-align: justify; color: var(--text-color);
-    background-color: var(--window-color); padding: 16px; width: 850px; overflow-y: scroll; height: 400px;">
+        <div id="starlinkGuide" style="border: solid; border-radius: 16px; text-align: justify; color: var(--text-color);
+        background-color: var(--window-color); padding: 16px; width: 850px; overflow-y: scroll; height: 400px;">
 
-        <h1>HOW TO CATCH STARLINK - GUIDE</h1>
-        <p style="font-size: 18px;">So, you want to catch Starlink?<br>
-        Here are few steps that will help you: <br> <br>
-        <strong>Search for "Starlink tracker (<dfn>*your country*</dfn>)"</strong> <br>
-        In your browser search for "starlink tracker" or "starlink tracker *<dfn>your country</dfn>*".
-        I like to use <a href="https://findstarlink.com/"> this tracker </a>
-        where you can pick your country AND city! The website also provides a live map, where 
-        you can see the positions of the Starlink satellites!! <br>
+            <h1>HOW TO CATCH STARLINK - GUIDE</h1>
+            <p style="font-size: 18px;">
+            So, you want to catch Starlink?<br>
+            Here are few steps that will help you: <br> <br>
+            <strong>Search for "Starlink tracker (<dfn>*your country*</dfn>)"</strong> <br>
+            In your browser search for "starlink tracker" or "starlink tracker *<dfn>your country</dfn>*".
+            I like to use <a href="https://findstarlink.com/"> this tracker </a>
+            where you can pick your country AND city! The website also provides a live map, where 
+            you can see the positions of the Starlink satellites!! <br>
             <br>
-        And now, when you know when it's flying over, just go outside and 
-        <strong> look for long, dashed line crossing the sky. </strong> That's the Starlink!
-        It looks this way because it's a constellation of satellites. <br>
-        In January 2025 there were 6,800 Starlink satellites in orbit, 
-        12,000 satellites is the planned size of the constellation, 
-        and there is a possibility of later expansion to 32,000! <br>
-        <br>
-        <strong>Did you know?</strong> <br>
-        Astronomers have expressed concerns regarding the impact of the Starlink 
-        constellation on ground-based observations. SpaceX has attempted to address concerns about 
-        astronomical interference by reducing the satellites brightness through a reduction in reflected 
-        light. <br> <dfn>Source: Wikipedia</dfn> <br>
+            And now, when you know when it's flying over, just go outside and 
+            <strong> look for long, dashed line crossing the sky. </strong> That's the Starlink!
+            It looks this way because it's a constellation of satellites. <br>
+            In January 2025 there were 6,800 Starlink satellites in orbit, 
+            12,000 satellites is the planned size of the constellation, 
+            and there is a possibility of later expansion to 32,000! <br>
             <br>
-        <strong>Congrats!</strong> <br>
-        Now, you know how to spot starlink satellites! Enjoy the flyover! <br>
-        <br>
-        <strong>Learn more about starlink satellites on</strong>
-        <a href="https://en.wikipedia.org/wiki/Starlink">Wikipedia</a>
+            <strong>Did you know?</strong> <br>
+            Astronomers have expressed concerns regarding the impact of the Starlink 
+            constellation on ground-based observations. SpaceX has attempted to address concerns about 
+            astronomical interference by reducing the satellites brightness through a reduction in reflected 
+            light. <br> <dfn>Source: Wikipedia</dfn> <br>
+            <br>
+            <strong>Congrats!</strong> <br>
+            Now, you know how to spot starlink satellites! Enjoy the flyover! <br>
+            <br>
+            <strong>Learn more about starlink satellites on</strong>
+            <a href="https://en.wikipedia.org/wiki/Starlink">Wikipedia</a>
+            </p>
 
-        </p>
+        </div>
 
-    </div>
-
-    <div id="bottom bar">
+        <div id="bottom bar">
             <p style="text-shadow: rgb(250, 242, 229); color: #ffffffa1; text-align: right; cursor: pointer;
             margin: 5px;">
                 Starlink Catch Guide</p>
-    </div>
+        </div>
 
     </div>
 
 
 
-
+    <!-- Bottom bar with spacecraft apps -->
 
     <div id="nadole" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;
     border-radius: 10px; bottom: 2%; width: 75%; height: 80px; left: 50%; transform: translateX(-50%); position: absolute;
@@ -246,6 +250,7 @@
     
     </div>
 
+    <!-- Settings -->
 
     <div style="padding: 10px; display: flex; justify-content: flex-end">
 
@@ -255,9 +260,8 @@
 
 
 
+    <!-- Side bar with additional apps like notes, games -->
 
-
-    <div>
     <div id="desktopApps" style="padding: 10px; display: flex; flex-direction: column;
     justify-content: space-around; align-items: center; border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; width: fit-content; height: 65%; left: 0%; position: absolute;
@@ -315,7 +319,7 @@
 
 
 
-
+    <!-- James Webb Space Telescope App -->
 
     <div class="outsideAppWindow" id="JamesWebbSpaceTelescopeApp">
 
@@ -424,22 +428,22 @@
 
     </div>
 
-</div>
 
 
 
 
 
+    <!-- Hubble Space Telescope App-->
 
-<div class="outsideAppWindow" id="HubbleSpaceTelescopeApp">
+    <div class="outsideAppWindow" id="HubbleSpaceTelescopeApp">
 
-    <img src="images/HSTApp/HST_astronaut.png" style="position:absolute; top: 14%; left:98%; transform:rotate(0deg); width: 258px; height: 333px;
-    border-radius: 2px; filter: drop-shadow(200px 1px 100px rgb(0, 0, 0)); z-index:20;">
+        <img src="images/HSTApp/HST_astronaut.png" style="position:absolute; top: 14%; left:98%; transform:rotate(0deg); width: 258px; height: 333px;
+        border-radius: 2px; filter: drop-shadow(200px 1px 100px rgb(0, 0, 0)); z-index:20;">
     
-    <p style="position:absolute; top: 14%; left:104%; color:#ffffffd8; width: 238px; z-index: 30;"> 
+        <p style="position:absolute; top: 14%; left:104%; color:#ffffffd8; width: 238px; z-index: 30;"> 
         Astronaut Steven L. Smith on a servicing Hubble mission </p>
     
-    <p style="position:absolute; top: 82%; left:103%; color:#ffffffd8; width: 250px; text-align: right; z-index: 30;"> 
+        <p style="position:absolute; top: 82%; left:103%; color:#ffffffd8; width: 250px; text-align: right; z-index: 30;"> 
         Credits: NASA </p>
     
     
@@ -600,16 +604,16 @@
 
     </div>
 
-</div>
 
 
 
+    
+    <!-- Artemis Mission App -->
 
+    <div class="outsideAppWindow" id="ArtemisApp">
 
-<div class="outsideAppWindow" id="ArtemisApp">
-
-    <img src="images/ArtemisApp/SuitArtemis.png" style="position:fixed; top: 63%; left:-8%; transform:rotate(340deg); z-index: 100; width: 123px; height: 225px;">
-    <img src="images/ArtemisApp/Rocket.png" style="position:fixed; top: 5%; left:-11%; transform:rotate(0deg);">
+        <img src="images/ArtemisApp/SuitArtemis.png" style="position:fixed; top: 63%; left:-8%; transform:rotate(340deg); z-index: 100; width: 123px; height: 225px;">
+        <img src="images/ArtemisApp/Rocket.png" style="position:fixed; top: 5%; left:-11%; transform:rotate(0deg);">
     
 
         <div style="justify-content: space-between; display: flex;">
@@ -811,16 +815,15 @@
 
     </div>
 
-</div>
 
 
 
 
+    <!-- Voyager 1 and 2 app -->
 
+    <div class="outsideAppWindow" id="VoyagerApp">
 
-<div class="outsideAppWindow" id="VoyagerApp">
-
-    <img src="images/VoyagerApp/VoyagerBordersImg.png" style="position: absolute; top: 70%; left: 77%; transform:rotate(0deg); z-index: 100;  width: 290px; height: auto; transform: scaleX(-1)">
+        <img src="images/VoyagerApp/VoyagerBordersImg.png" style="position: absolute; top: 70%; left: 77%; transform:rotate(0deg); z-index: 100;  width: 290px; height: auto; transform: scaleX(-1)">
     
         <div style="justify-content: space-between; display: flex;">
 
@@ -964,14 +967,12 @@
 
     </div>
 
-</div>
 
 
 
+    <!-- Rovers App (previously named opportunity app bc I didn't know about Spirit lol)-->
 
-
-
-<div class="outsideAppWindow" id="OpportunityApp">
+    <div class="outsideAppWindow" id="OpportunityApp">
     
         <div style="justify-content: space-between; display: flex;">
 
@@ -1079,17 +1080,15 @@
 
     </div>
 
-</div>
 
 
 
+    <!-- Nancy Grace Roman Space Telescope App -->
 
+    <div class="outsideAppWindow" id="NancyGraceRomanSTApp">
 
-
-<div class="outsideAppWindow" id="NancyGraceRomanSTApp">
-
-    <img src="images/NGRSTApp/NGRSTBorderSticker.png" style="z-index: 20; position: fixed; top: 75%; left: -7%; transform: rotate(10deg);
-    width: auto; height: 150px;">
+        <img src="images/NGRSTApp/NGRSTBorderSticker.png" style="z-index: 20; position: fixed; top: 75%; left: -7%; transform: rotate(10deg);
+        width: auto; height: 150px;">
     
         <div style="justify-content: space-between; display: flex;">
 
@@ -1139,7 +1138,7 @@
                     <p style="font-size: 20px; text-align: center">Check out this blog to stay up to date <br>
                     <br>
                     <a href="https://science.nasa.gov/blogs/roman/" style="font-size: 55px; font-weight: bold;
-                    text-decoration: none; cursor: pointer;">BLOG</a> </p>
+                    text-decoration: none; cursor: pointer;" class="BlogAnimation">BLOG</a> </p>
                 </p>
             
         </div>
@@ -1152,20 +1151,14 @@
 
     </div>
 
-</div>
 
 
 
 
 
+    <!-- Space Shuttles App -->
 
-
-
-
-
-
-
-<div class="outsideAppWindow" id="SpaceShuttleApp">
+    <div class="outsideAppWindow" id="SpaceShuttleApp">
 
     <img src="images/SpaceShuttleApp/SSborderSticker.png" style="z-index: 20; position: fixed; top: 45%; left: -13%; transform: rotate(350deg);
     width: auto; height: 370px;">
@@ -1278,19 +1271,16 @@
 
     </div>
 
-</div>
 
 
 
 
 
+            <!-- ADDITIONAL APPS -->
 
 
 
-
-
-
-
+    <!-- Notes App -->
 
 <div>
     <div class="outsideAppWindow" id="NASCApp">
@@ -1340,6 +1330,7 @@
 
 
 
+    <!-- Artemis wake up songs - Playlist App -->
 
 <div>
     <div class="outsideAppWindow" id="PlaylistApp">
@@ -1379,7 +1370,7 @@
 
 
 
-
+    <!-- Photos App - such a gallery, photos humans have sent to space with the voyager sonds -->
 
     <div class="outsideAppWindow" id="PhotosApp">
 
@@ -1437,15 +1428,13 @@
                     </div>
                 </div>
 
-                </div>
-
         </div>
 
     </div>
 
 
 
-
+    <!-- Snake App - a snake game!! -->
 
 <div>
     <div class="outsideAppWindow" id="SnakeApp">
@@ -1507,7 +1496,7 @@
 
 
 
-
+    <!-- Map App - spacecraft GPS -->
 
 <div>
     <div class="outsideAppWindow" id="MapApp">
@@ -1531,6 +1520,7 @@
 
 
 
+    <!-- Calendar App -->
 
 <div>
     <div class="outsideAppWindow" id="CalendarApp">
@@ -1615,7 +1605,7 @@
 
 
 
-
+    <!-- Timer App -->
 
 <div>
     <div class="outsideAppWindow" id="TimerApp">
@@ -1655,7 +1645,7 @@
 
 
 
-
+    <!-- Settings -->
 
 <div>
     <div class="outsideAppWindow" id="Settings">
@@ -1722,6 +1712,8 @@
     </div>
 
 </div>
+
+    <!-- Scripts -->
 
     <script type="module" src="script/timer.js" defer></script>
 
