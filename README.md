@@ -210,6 +210,8 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 9. Discovery - NASA, Cowtowner - https://en.wikipedia.org/wiki/Space_Shuttle_Discovery#/media/File:STS-121_Discovery_posing_for_inspection_photos_edit1.jpg
 10. Atlantis - NASA - https://pl.wikipedia.org/wiki/Atlantis_(wahad%C5%82owiec)#/media/Plik:Atlantis_taking_off_on_STS-27.jpg
 11. Endeavour - NASA/Crew of Expedition 22 - https://en.wikipedia.org/wiki/Space_Shuttle_Endeavour#/media/File:Endeavour_silhouette_STS-130.jpg
+12. Border sticker from Space Shuttle App - probably NASA - I took it from here tho https://ger.animalia-life.club/Einfache-Teile-des-Space-Shuttles
+13. Border sticker from NGRSTApp - NASA - https://pl.wikipedia.org/wiki/Kosmiczny_Teleskop_Nancy_Grace_Roman#/media/Plik:ROMANNewModelV8RomanStill00049.png
 
 **Information Sources**
 1. https://pl.wikipedia.org/wiki/Wahad%C5%82owiec#Zastosowanie
