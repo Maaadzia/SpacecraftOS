@@ -34,7 +34,7 @@ You will find 13, well-thought-out apps and some additonal features:
 16. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
 17. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
-<img style="width: 100%; height: auto; border-radius: 2px;" src="readme images/SpacecraftOS screenshoot2.png">
+<img style="width: 100%; height: auto; border-radius: 2px;" src="readme images/SpacecraftOS screenshoot 3.png">
 
 ## Ship 4 main updates
 1. Space Shuttle App
