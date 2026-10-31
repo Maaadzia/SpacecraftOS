@@ -57,7 +57,9 @@ It was an amazing voyage! Thank you again
 Huge thanks to all of these sources. Without them, this project would be nothing! 
 
 <details>
-<summary> ## Ship 1 credits </summary>
+<summary> Ship 1 credits </summary>
+
+<br>
 
 **Youtube videos I've been learning from**
 1. https://www.youtube.com/watch?v=DEtYsLNCuMM - adding youtube video to HTML
@@ -85,7 +87,11 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 2. https://en.wikipedia.org/wiki/Hubble_Space_Telescope
 </details>
 
-## Ship 2 credits
+
+<details>
+<summary> Ship 2 credits </summary>
+
+<br>
 
 **Photos**
 1. Artemis App Icon - NASA/Joel Kowsky - https://www.nasa.gov/image-detail/artemis-ii-launch-11/
@@ -129,8 +135,13 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 
 **Other**
 1. I used this background remover - https://www.remove.bg/
+</details>
 
-## Ship 3 Credits
+
+<details>
+<summary> Ship 3 Credits </summary>
+
+<br>
 
 **Photos**
 1. Golden Record images - https://science.nasa.gov/gallery/images-on-the-golden-record/ <br>
@@ -209,8 +220,13 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 2. Map App NASA embeeded map - https://eyes.nasa.gov/apps/solar-system/#/home
 3. For Additional Apps Icons I used Canva and Paint 3d
 4. NGRST yt vid launch - https://www.youtube.com/watch?v=6o3m9Bw67Os
+</details>
 
-## Ship 4 credits 
+
+<details>
+<summary> Ship 4 credits </summary>
+
+<br>
 
 **Photos**
 1. Space Shuttle App Icon - NASA/Kenny Allen - https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis#/media/File:Space_Shuttle_Atlantis_launches_on_STS-132.jpg
@@ -238,6 +254,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 8. https://en.wikipedia.org/wiki/Space_Shuttle_Atlantis
 9. https://pl.wikipedia.org/wiki/Atlantis_(wahad%C5%82owiec)
 10. https://pl.wikipedia.org/wiki/Discovery_(wahad%C5%82owiec)
+</details>
 
 ## 
 
