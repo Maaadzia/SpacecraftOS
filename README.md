@@ -20,28 +20,38 @@ You will find 13, well-thought-out apps and some additonal features:
 4. Voyager App
 5. Mars Rovers App
 6. Nancy Grace Roman Space Telescope App
+7. Space Shuttle App
 - **Additional Apps**
-7. Spacecraft Ideas 
-8. Artemis II playlist 
-9. Photos From Voyager (Gallery)
-10. Snake Game
-11. Spacecraft Map
-12. Calendar
-13. Timer
-14. Settings (theme switching)
+8. Spacecraft Ideas 
+9. Artemis II playlist 
+10. Photos From Voyager (Gallery)
+11. Snake Game
+12. Spacecraft Map
+13. Calendar
+14. Timer
+15. Settings (theme switching)
 - **Catch Guides**
-15. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
-16. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
+16. ISS catch guide - where you get to know how to spot the ISS on your sky (or watch Sławosz, polish astronaut, eating pierogi (delicious polish dish) on the ISS)
+17. Starlink catch guide - where you get to know how to spot the starlink satellites on your sky
 
 <img style="width: 100%; height: auto; border-radius: 2px;" src="readme images/SpacecraftOS screenshoot2.png">
 
-## Ship 3 main updates
-1. Snake Game
-2. Map, Timer, Voyager Photos, Calendar
-3. Nancy Grace Roman Space Telescope App
-4. Voyager App
-5. Mars Rovers App
-6. Variable Themes (in the settings) <br>
+## Ship 4 main updates
+1. Space Shuttle App
+2. Nodejs, vite which made spacecraftOS work smoother
+3. Refined my code and made it a little easier to understand by commenting it <br>
+
+## Acknowledgments
+
+@253_Mathilde_IYKYK, <br>
+@amateur_tech_guy, <br>
+@Uncool, <br>
+@Ali-was-taken, <br>
+And everyone else who left a comment, like, follow <br>
+<strong>Thank you soooo much!! I appreciate your support a lot. <strong> <br>
+This project wouldn't be the same without yall. <br>
+It was an amazing voyage! Thank you again
+
 
 ## Credits
 Huge thanks to all of these sources. Without them, this project would be nothing! 
