@@ -57,7 +57,7 @@ It was an amazing voyage! Thank you again
 Huge thanks to all of these sources. Without them, this project would be nothing! 
 
 <details>
-<summary> Ship 1 credits </summary>
+<summary> Ship 1 </summary>
 
 <br>
 
@@ -89,7 +89,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 
 
 <details>
-<summary> Ship 2 credits </summary>
+<summary> Ship 2 </summary>
 
 <br>
 
@@ -139,7 +139,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 
 
 <details>
-<summary> Ship 3 Credits </summary>
+<summary> Ship 3 </summary>
 
 <br>
 
@@ -224,7 +224,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 
 
 <details>
-<summary> Ship 4 credits </summary>
+<summary> Ship 4 </summary>
 
 <br>
 
