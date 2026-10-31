@@ -102,6 +102,15 @@ document.addEventListener('DOMContentLoaded', function() {
         '2026-8-22': [
             { time: '05:00 PM', text: 'Voyager 2 Launch Anniversary'},
         ],
+        '2026-10-8': [
+            { time: '05:00 PM', text: 'Math Exam'},
+        ],
+        '2026-10-20': [
+            { time: '05:00 PM', text: 'Stargazing'},
+        ],
+        '2026-11-22': [
+            { time: '05:00 PM', text: 'Planes Spotting with Friends'},
+        ],
     };
 
     // Render calendar to tez nwm co to xd
