@@ -56,6 +56,9 @@ It was an amazing voyage! Thank you again
 ## Credits
 Huge thanks to all of these sources. Without them, this project would be nothing! 
 
+<details>
+<summary> ## Ship 1 credits </summary>
+
 **Youtube videos I've been learning from**
 1. https://www.youtube.com/watch?v=DEtYsLNCuMM - adding youtube video to HTML
 2. https://www.youtube.com/watch?v=salY_Sm6mv4&t=191s - cool features
@@ -80,6 +83,7 @@ Huge thanks to all of these sources. Without them, this project would be nothing
 **Information Sources**
 1. https://en.wikipedia.org/wiki/James_Webb_Space_Telescope
 2. https://en.wikipedia.org/wiki/Hubble_Space_Telescope
+</details>
 
 ## Ship 2 credits
 
