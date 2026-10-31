@@ -19,6 +19,8 @@
     --scrollbar-thumb2: #242930;
 }
 
+/* Dark mode */ 
+
 .darkmode {
     --window-color: #353c47;
     --text-color: rgb(250, 242, 229);
@@ -64,6 +66,8 @@
 .darkmode #theme-switch img:last-child {
     display: block;
 }
+
+/* Start animation */
 
 .Black {
     animation-name: BlackAnimation;
@@ -113,6 +117,8 @@
     }
 }
 
+/* Some additional things (a and when you select an app) */ 
+
 a {
     color: var(--link-color)
 }
@@ -120,6 +126,8 @@ a {
 .selected {
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
 }
+
+/* Window design (sometimes when I needed to make some things different I just writed it down in html and didn't use that class */
 
 .outsideAppWindow { 
     border: solid; border-radius: 10px; background-color: #312f6c2b; backdrop-filter: blur(7px);
@@ -147,11 +155,15 @@ a {
     color: var(--text-color)
 }
 
+/* Notes App */
+
 .NotesDisplay {
     background-color:rgb(255, 248, 237); padding: 10px;
     height: 77px;
     border-radius: 5px;
 }
+
+/* Spacecraft apps hover */ 
 
 .AppsIcon {
     width:fit-content; 
@@ -167,6 +179,8 @@ a {
     margin-top: -10px
     
 }
+
+/* Artemis App */
 
 .map {
     border-radius: 10px;
@@ -237,6 +251,8 @@ a {
     opacity: 100%;
 }
 
+/* Golden Record border sticker animation (playlist app) */
+
 .golden {
     animation-name: goldenSpin;
     animation-duration: 5s;
@@ -256,6 +272,8 @@ a {
     }
 }
 
+/* **Old** Additional Apps hover */
+
 .AdditionalAppsIcon {
     cursor: pointer;
     transition: 100ms;
@@ -265,6 +283,8 @@ a {
     transform: scale(1.1);
     filter: drop-shadow(1px 1px 20px rgb(162, 45, 145));
 }
+
+/* Voyager photos app */
 
 .karuzela {
     width: 99%;
@@ -327,6 +347,8 @@ a {
     scale: 1.3;
     left: 10%;
 }
+
+/* Themes (in settings) */
 
 .color-picker > fieldset {
     border: 0;
@@ -431,6 +453,8 @@ a {
     --scrollbar-thumb: #fffdf8;
     --scrollbar-thumb2: #bbeeee;
 }
+
+/* Rovers App */ 
 
 .roverAnimation {
     animation: OpportunityAnimation 35s infinite linear
@@ -582,6 +606,8 @@ a {
     transform: scale(1.3);
 }
 
+/* Tab switching animation */
+
 .tabSwitching {
     animation: appAnimation linear 1 350ms
 }
@@ -599,6 +625,7 @@ a {
     }
 }
 
+/* Snake Game */
 
 #gameContainer {
     text-align: center
@@ -643,6 +670,8 @@ a {
     background-color: var(--switch-color);
 }
 
+/* Rating photos */
+
 .photosRatings input[type="radio"] {
     appearance: none;
     width: 30px;
@@ -660,6 +689,8 @@ a {
     scale: 1.5;
     transform: rotate(360deg);
 }
+
+/* Animations */
 
 .photosAnimation {
     animation: appear 200ms linear;
@@ -756,7 +787,7 @@ a {
     margin-bottom: 100px;
 }
 
-/* calender app */
+/* Calender App */
 
 .container2 {
     display: flex;
@@ -894,7 +925,7 @@ a {
     opacity: 0.5;
 }
 
-/* kropeczka pod wydarzeniem */
+/* polish note: kropeczka pod wydarzeniem */
 .day.has-events::after {
     content:'';
     position: absolute;
@@ -948,7 +979,7 @@ a {
     float: right;
 }
 
-/* tutaj event panel a u góry jest kalendarz */
+/* polish note: tutaj event panel a u góry jest kalendarz (top: calendar (days, months) bottom: event panel) */
 
 .event-panel {
     background: var(--calendar-background);
